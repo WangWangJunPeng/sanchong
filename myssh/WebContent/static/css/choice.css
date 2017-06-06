@@ -1,0 +1,68 @@
+/*ÂÖ²¥*/
+.mui-slider {
+	height:6.8rem;
+	margin-top:.32rem;
+}
+.mui-slider .mui-slider-group .mui-slider-item img {
+	height:6rem;
+}
+img {
+	width:100%;
+	height:4.666rem;
+}
+a {
+	color:#666666;
+	height:100%;
+}
+p {
+	color:#666666;
+	font-size:.3733rem;
+}
+.bg {
+	width: 100%;
+	background-color: #fff;
+	margin-bottom: .2rem;
+	padding:.25rem 0;
+}
+.messageList {
+	margin-top: .2rem;
+	margin-bottom: 1.2rem
+}
+.mui-bar-tab .mui-tab-item .mui-icon {
+	height:.32rem;
+}
+.message {
+	width: 90%;
+	height: 5.4rem;
+	margin: 0 auto;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: .1rem;
+	overflow: hidden;
+}
+.message h4 {
+	margin-top: .2rem;
+	padding-left: .2rem;
+	border-left: 0.08rem solid #ff5a5f;
+	font-size: .34666rem;
+	color:#666666;
+}
+.mui-slider-item p {
+	font-size: .32rem;
+	font-weight: 600;
+}
+.mui-slider-title {
+	background:#fff;
+	opacity:1;
+}
+.mui-slider-title .redBar {
+	position:absolute;
+	top:.2rem;
+	left:.6rem;
+	display:inline-block;
+	width:.1rem;
+	height:.4rem;
+	background:#ff5a5f;
+}
+.leftq {
+	margin-left:.5rem;
+}

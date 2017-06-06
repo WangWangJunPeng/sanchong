@@ -1,0 +1,42 @@
+/* 
+* @Author: Marte
+* @Date:   2017-02-06 17:04:58
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-02-09 16:24:02
+*/
+@charset "utf-8"; 
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;} 
+table,td,tr,th{font-size:12px;}
+table {width:100%;border-collapse:collapse;}
+input,select,textarea,button{vertical-align:middle;}
+.header{width:1024px;height:50px;margin:0 auto;background-color:#ffffff;color:#666666;}
+.header .self-center{display: inline-block;font-size:22px;font-weight:700;color:#0c95db;line-height: 45px;float:left;}
+.header ul{float:left;line-height: 45px;margin-left:30px;}
+.header ul li{float: left;margin-left: 20px;}
+.header ul li a{display:inline-block;font-size: 12px;color:#333333;}
+.header .welcome{display:block;font-size:12px;float:right;margin-right: 10px;line-height: 45px;color:#666666;}
+.header ul li a:hover{color:#004fc5;border-bottom: 3px solid #37a;}
+.business-list{width:1024px;background-color:#e7e8eb;margin:0 auto;}
+.business-list .btn-all{padding-top:30px;}
+.business-list .btn-all button{width:100px;height:30px;font-size: 12px;color:#ffffff;line-height: 30px;background-color: #169bd5;border-radius: 6px;margin-left: 20px;}
+.business-list .btn-single{margin-top: 15px;padding-bottom: 15px;}
+.business-list .btn-single .every-span{font-size: 12px;color: #169bd5;margin-left: 20px;cursor:pointer;}
+.business-list .btn-single .table-list{margin-top: 15px;}
+.business-list .btn-single .table-list .table-one span{font-size: 12px;color: #169bd5;cursor:pointer;}
+.business-list .btn-single .table-list table{width:98%;border:1px solid #a6a6a6;margin:0 auto;background-color: #ffffff; }
+.btn-single .table-list table th{font-size: 14px;color:#333333;border:1px solid #a6a6a6;white-space:nowrap;text-align: center;}
+.btn-single .table-list table  td{font-size: 12px;color:#666666;text-align: center;border:1px solid #a6a6a6;}
+.btn-single .table-list .table-two .cert-pic{font-size:12px;vertical-align: middle;}
+.btn-single .table-list .table-two .btn-sure{width:60px;height:20px;font-size: 12px;line-height: 18px;background-color:#169bd5;color:#ffffff;border:0;border-radius:4px;margin-left:10px;}
+.look-reject{width:300px;height:200px;position:fixed;margin:auto;left:0; right:0; top:0; bottom:0;border:10px solid #e4e4e4;border-radius: 5px;z-index: 1000;}
+.look-reject .sure-reject{width:300px;height:40px;background-color:#0c95db;line-height: 40px;}
+.look-reject .sure-reject h1{font-size: 18px;color:#ffffff;margin-left: 20px;}
+.look-reject p{font-size: 16px;margin-top:10px;margin-left: 10px;}
+
+.payment{width:300px;height:200px;background-color: #ffffff; position:fixed;margin:auto;left:0; right:0; top:0; bottom:0;border:10px solid #e4e4e4;border-radius: 5px;z-index: 1000;}
+.payment .sure-pay{width:300px;height:40px;background-color:#0c95db;line-height: 40px;}
+.payment .sure-pay h1{font-size: 18px;color:#ffffff;margin-left: 20px;}
+.payment p{font-size: 16px;margin-top:30px;margin-left: 30px;}
+.payment .sure-btn{width:100px;margin:60px auto;text-align: center;}
+.payment .sure-btn button{width:80px;height:30px;background-color:#169bd5;color:#ffffff;line-height:30px;border-radius: 6px;}
+.mask{background-color:#ccc;opacity:0.3;filter:alpha(opacity=50);position:absolute;left:0;top:0;z-index:10;}

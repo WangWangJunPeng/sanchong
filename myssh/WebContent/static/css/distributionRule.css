@@ -1,0 +1,53 @@
+a {
+	color: #676767;
+}
+
+body {
+	word-break:break-all
+}
+
+.mui-content {
+    background-color: #ffffff;
+}
+
+.support {
+	background: #fff;
+    height: 2rem;
+    line-height: 2rem;
+    padding-left: 1rem;
+    margin-top: .1rem;
+    margin-bottom: .5rem;
+}
+
+.mainType {
+	color: #fd6767;
+	border-radius: .1rem;
+	border-color: #fd6767;
+	border-width: thin;
+	border-style: solid;
+	padding-left: .1rem;
+	padding-right: .1rem;
+	padding-top: .1rem;
+	padding-bottom: .1rem;
+	font-size: .3rem;
+}
+
+.first{
+	color: #8f8f94;
+	font-size: .85rem;
+}
+
+p {
+	color: #3C3C3C;
+}
+
+p span {
+	color: #8f8f94;
+}
+
+
+.floatRight {
+	float: right;
+}
+
+

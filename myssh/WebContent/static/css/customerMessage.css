@@ -1,0 +1,270 @@
+@charset "utf-8";
+.container {
+	width: 94%;
+	margin: 0 auto;
+	overflow: auto;
+}
+/*title*/
+.titlebar {
+	width: 100%;
+	height: 1.13rem;
+	background: #fd6767;
+}
+.lefttitle {
+	float: left;
+	width: 60%;
+	line-height: 1.13rem;
+}
+.lefttitle p {
+	color: #fff;
+	font-size: .3733rem;
+	margin-bottom: 0;
+}
+.leftwidth {
+	padding-left: 10%;
+}
+.righttltle {
+	float: left;
+	width: 39%;
+	padding-left: 10%;
+	line-height: 1.13rem;
+	border-left: 1px solid #fff;
+}
+.righttltle img {
+	width: .4266rem;
+	height: .45rem;
+	vertical-align: middle;
+}
+.righttltle button {
+	width: 60%;
+	height: 1.13rem;
+	font-size: .3733rem;
+	background:transparent;
+	border: none;
+	color: #fff;
+}
+.people .container {
+	padding-top:.4rem;
+}
+/*zhong*/
+.people {
+	height: 3rem;
+	background: #fff;
+}
+.left {
+	float: left;
+	width: 30%;
+	line-height: 3rem;
+}
+.left img {
+	width: 2.2rem;
+	height: 2.2rem;
+	border-radius: 50%;
+	vertical-align: middle;
+	overflow: hidden;
+}
+.right {
+	height: 2.6rem;
+	line-height: 1.3rem;
+	float: left;
+	width: 70%;
+}
+.right img {
+	width: .4rem;
+	height: .4rem;
+	margin-right: 5%;
+}
+.right p {
+	height:.6rem;
+	line-height:.6rem;
+	margin-bottom:.2rem;
+	font-size: .4rem;	
+	color: #666666;
+}
+.top1 {
+	
+}
+.yuanyuan {
+	display: inline-block;
+	width: 28%;
+	height: .6rem;
+	line-height: .6rem;
+	text-align: center;
+	border: 1px solid #fd6767;
+	border-radius: .1rem;
+	margin-right: 5%;
+	font-size: .32rem;
+	color: #fd6767;
+}
+/*状态指示*/
+.state {
+	width: 100%;
+	height: 1.6rem;
+	background: #fff;
+	border-bottom: 2px solid #e1e1e6;
+	margin-bottom: .4rem;
+}
+.statelist {
+	width: 94%;
+	margin: 0 auto;
+	border-top: 1px solid #dadada;
+	overflow: hidden;
+	height: 1.6rem;
+}
+ul {
+	list-style: none;
+	padding-left: 0;
+	overflow: auto;
+}
+.list1 {
+	float: left;
+	width: 25%;
+	text-align: center;
+	height: 1.6rem;
+	font-size: .3733rem;
+	color: #666666;
+}
+.list1 p {
+	font-size: .4rem;
+	height: .8rem;
+	line-height: .6rem;
+	margin-bottom: 0;
+}
+.list1 .pt {
+	position: relative;
+}
+.list1 .dian {
+	position: absolute;
+	top: 30%;
+	left: 42%;
+	display: block;	
+	width: .32rem;
+	height: .32rem;
+	border-radius: 50%;
+	background-color: #e0e0e0;
+}
+/*信息展示*/
+#slider {
+	background: #fff;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+	color:#fd6767 ;
+}
+.mui-segmented-control .mui-control-item {
+	line-height: 1rem;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item {
+	color: #333;
+}
+.mui-segmented-control .mui-control-item {
+	font-size: .4rem;
+}
+.mui-segmented-control.mui-segmented-control-inverted ~ .mui-slider-progress-bar {
+	background-color: #fd6767;
+}
+/*底部*/
+.mui-bar-tab {
+	height: 1.8rem;
+	border-top: 1px solid #dadada;
+}
+.midde {
+	width: 94%;
+	margin: 0 auto;
+	height: 1.8rem;
+	padding-top: .25rem;
+}
+#firetBtn {
+	margin-right: 3%;
+}
+.midde button {
+	position: relative;
+	width: 47%;
+	height: 1.3rem;
+	background: #cccccc;
+	color: #666666;
+	font-size: .4rem;
+	font-weight: 600;
+}
+.midde button span {
+	display: inline-block;
+	margin-top: .1rem;
+}
+/*信息展示区*/
+.mui-slider .mui-slider-group .mui-slider-item {
+	min-height: 15rem;
+}
+.mui-scroll {
+	padding-top: .4rem;
+}
+.contain {
+	width: 94%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.contain textarea {
+	width: 100%;
+	height: 7rem;
+	margin-bottom: 0;
+	background: #f3f4f5;
+	color: #999999;
+	font-size: .4rem;
+}
+#firetBtn img {
+	width: .46667rem;
+	height: .44rem;
+	margin-right: .2rem;
+	vertical-align: middle;
+}
+#btn-succ img {
+	width: .5066rem;
+	height: .3733rem;
+	margin-right: .2rem;
+	vertical-align: middle;
+}
+.messList li {
+	width:auto;
+	display:inline-block !important;
+	display:inline; 
+	border-radius: .1rem;
+	padding: 0 .2rem;
+	height: .8rem;
+	line-height: .8rem;
+	text-align: center;
+	background: #f4f4f4;
+	font-size: .3733rem;
+	color: #666;
+	margin-bottom: .25rem;
+}
+.list {
+	overflow: auto;
+	border-bottom: 1px solid #dadada;
+	margin-bottom: .2rem;
+}
+.list .leftbox {
+	float: left;
+	width: 27%;
+	padding-top: .2rem;
+}
+.leftbox span {
+	float: left;
+	display: inline-block;
+	width: .15rem;
+	height: .4rem;
+	background: #fd6767;
+	margin-right: .2rem;
+}
+.list .rightbox {
+	float: left;
+	width: 73%;
+}
+.rightbox ul {
+	margin: 0;
+}
+.title {
+	float: left;
+	font-size: .4rem;
+	color: #333;
+}
+.messList li {
+	margin-right:.1rem;
+}

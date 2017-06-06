@@ -1,0 +1,60 @@
+.formMiddle {
+	width: 100%;
+	margin-top:50px;
+	margin-left: 260px;
+}
+form {
+	font-size: 18px;
+}
+section {
+	width: 100%;
+	margin-bottom: 20px; 
+}
+p {
+	display: inline-block;
+	margin-right: 30px;
+	
+}
+span {
+	color: red;
+}
+input[type="text"] {
+	width: 270px;
+	height: 30px;
+	border: 1px solid #000;
+	border-radius: 4px;
+}
+/* #userCaption {
+	margin-left: 75px;
+}
+#name {
+	margin-left: 75px;
+}
+#phone {
+	margin-left: 75px;
+}
+#id_card {
+	margin-left: 22px;
+} */
+#forNext , #forReturn{
+	width: 200px;
+	height: 38px;
+	background: #169bd5;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 38px;
+	margin-right: 10px;
+	border-radius: 8px;
+}
+#forSave{
+	width: 200px;
+	height: 38px;
+	background: #169bd5;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 38px;
+	margin-left:120px;
+	border-radius: 8px;
+}

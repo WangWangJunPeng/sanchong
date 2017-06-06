@@ -1,0 +1,37 @@
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	color: #676767;
+}
+
+.title {
+	margin-top: .4rem;
+}
+
+h2, .mui-h2 {
+    color: #fd6767;
+    padding-left: 0.1rem;
+    border-left: 6px solid #fd6767;
+    font-size: .377rem;
+    margin-left: .4rem;
+    margin-bottom: .3rem;
+}
+
+.mui-badge-danger, .mui-badge-red {
+    color: #FF5A5F;
+    background-color: transparent;
+    font-size: .377rem;
+}
+
+.mui-navigate-right:after, .mui-push-right:after {
+    right: 15px;
+    content: '\e583';
+    font-size: .5rem;
+}
+
+li a {
+	font-size: .377rem;
+}

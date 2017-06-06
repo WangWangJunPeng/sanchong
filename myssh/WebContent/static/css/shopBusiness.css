@@ -1,0 +1,20 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-13 13:37:44
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-13 14:03:59
+*/
+.container{width:960px;margin:0 auto;background-color: #eaeaea;}
+.container .customer-manage{padding-top: 10px;margin-left: 30px;}
+.container .customer-manage p{font-size:14px;color:#0c95db;}
+.container .box{width:98%;margin:0 auto;background-color: #ffffff;margin-top: 10px;}
+.container .box form{margin-left: 10px;margin-top: 10px;}
+.container .box form .name-in{height:24px;line-height: 24px;font-size: 12px;padding-left: 2px;}
+.container .box form .time-in{height:26px;padding-left: 2px;margin-left: 10px;} 
+.container .box .table-list{width:100%;padding-bottom: 10px;}
+.container .box form input[type='button']{width:80px;height:26px;line-height: 26px;border:0;border-radius: 6px;background-color: #169bd2;color:#ffffff;margin-left: 10px;cursor:pointer;}
+.container .box .table-list table{width:98%;border:1px solid #a6a6a6;margin:0 auto;margin-top: 15px;}
+.container .box .table-list table  th{font-size: 14px;color:#333333;border:1px solid #a6a6a6;}
+.container .box .table-list table  td{font-size: 12px;color:#666666;text-align: center;border:1px solid #a6a6a6;}
+
+

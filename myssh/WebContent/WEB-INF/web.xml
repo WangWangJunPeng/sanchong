@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>myssh</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+           classpath:springHibernate.xml,classpath:springMVC.xml
+        </param-value>
+	</context-param>
+	<!-- 页面编码监听器 -->
+	<filter>
+		<filter-name>encodingFilter</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>utf-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>encodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<!-- 权限监控监听器 
+	<filter>
+		<filter-name>shiroFilter</filter-name>
+		<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+		<init-param>
+			<param-name>targetFilterLifecycle</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>shiroFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	-->
+	
+	<!--spring上下文监听器 -->
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
+	</listener>
+	
+	<!-- 获取执行任务 -->
+	<listener>
+		<listener-class>
+			com.sc.tradmaster.listener.WebAppContextListener
+		</listener-class>
+	</listener>
+  
+	<!-- 定时触发任务 -->
+	<listener>
+		<listener-class>
+			com.sc.tradmaster.listener.ScheduleStartListener
+		</listener-class>
+	</listener>
+<!-- 监听房源是否下定，若有下定成功，修改房源状态为初始
+	<listener>
+		<listener-class>com.sc.tradmaster.listener.RegularUpdateTableInfo</listener-class>
+	</listener>
+-->
+  <!-- springMVC核心的servlet -->
+  <servlet>
+  	<servlet-name>springMVC</servlet-name>
+  	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  	<!-- 配置spring的配置文件地址 -->
+  	<init-param>
+  		<param-name>contextConfigLocation</param-name>
+  		<param-value>classpath:springHibernate.xml,classpath:springMVC.xml</param-value>
+  	</init-param>
+  	<!-- 定义servlet初始化的顺序 -->
+  	<load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>springMVC</servlet-name>
+  	<url-pattern>/</url-pattern>
+  </servlet-mapping>
+  
+  <!--  异常处理 -->
+ <!--   <error-page>
+	<error-code>404</error-code>
+	<location>/404.jsp</location>
+  </error-page> 
+ -->
+  <error-page>
+	<exception-type>java.lang.Exception</exception-type>
+	<location>/WEB-INF/views/error/errorHandle.jsp</location>
+  </error-page>
+
+	<context-param>
+		<param-name>log4jConfigLocation</param-name>
+		<param-value>classpath:logInfo.properties</param-value>
+	</context-param>  
+    <!-- 3000表示 开一条watchdog线程每60秒扫描一下配置文件的变化;这样便于日志存放位置的改变 -->
+    <context-param>    
+         <param-name>log4jRefreshInterval</param-name>    
+         <param-value>3000</param-value>    
+    </context-param>
+    <listener>
+        <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>  
+    </listener>
+    
+	<session-config>
+    	<session-timeout>35</session-timeout>
+    </session-config>
+  
+  
+  
+  
+  
+  
+  
+</web-app>

@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+body {
+	line-height:.4rem;
+}
+/*头部*/
+.mui-bar-nav {
+	height:1.1733rem;
+	background:rgba(255,255,255,1);
+	border-bottom:1px solid #dadada;
+}
+.mui-bar-nav a {
+	color:#666;
+}
+.mui-title {
+	font-size:.4266rem;
+}
+.mui-bar .mui-title {
+	right:.533rem;
+	left:.533rem;
+	line-height:1.1733rem;
+}
+.mui-bar-nav~.mui-content {
+	width:100%;
+	padding-top:1.1733rem;
+}
+.mui-bar-nav.mui-bar .mui-icon {
+	margin:.133rem;
+	padding:.133rem;
+}
+
+/*底部*/
+.mui-bar-tab {
+	height:1.3rem;
+	background:rgba(255,255,255,1);
+	border-top:1px solid #999;
+}
+.mui-bar-tab .mui-tab-item {
+	height:1.3rem;
+}
+.mui-bar-tab .mui-tab-item .mui-icon {
+	width:.64rem;
+	height:.64rem;
+}
+.mui-bar .mui-icon {
+	font-size:.64rem;	
+}
+.mui-bar-tab .mui-tab-item .mui-icon~.mui-tab-label {
+	font-size:.266rem;
+}
+.mui-bar-tab .mui-tab-item .mui-icon {
+	top:.04rem;
+}
+.mui-bar-tab .mui-tab-item.mui-active {
+	color:#fe7e7e;
+}

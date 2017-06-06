@@ -1,0 +1,39 @@
+.btn-group {
+	width: 100%;
+	/* float: left; */
+	margin-bottom: 10px;
+}
+.btn-group input {
+	margin-right: 5px;
+}
+ table{width:98%;border:1px solid #a6a6a6;margin:0 auto;}
+ table th{font-size: 14px;color:#333333;border:1px solid #a6a6a6;position:relative;white-space:nowrap;}
+ table  td{font-size: 12px;color:#666666;text-align: center;border:1px solid #a6a6a6;}
+
+
+
+
+.btn-search {
+	height: 24px;
+	width: 90px;
+	border-radius: 4px;
+	background: #169bd5;
+	color: #fff;
+	margin: 0 5px;
+	vertical-align: middle;
+}
+.btn-text {
+	border: 1px #a6a6a6 solid;
+	border-radius: 4px;
+	margin-left: 4px;
+}
+.btn-text-1 {
+	width: 100px;
+	height: 18px;
+	font-size: 14px;
+}
+.btn-text-2 {
+	width: 160px;
+	height: 20px;
+}
+

@@ -1,0 +1,40 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-13 22:26:50
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-14 09:52:57
+*/
+*{padding:0;margin:0;}
+html, body {margin: 0;padding: 0;overflow:hidden;height:100%;}
+body{background:url("../images/mb.jpg") top center no-repeat;width:100%;height:100%;}
+.header-top{width:1200px;margin:37px auto;position:relative;}
+.header-top .top-pic{position:absolute; left: 88px;}
+.header-top .apply{position:absolute;right:74px;top:10px;display:inline-block;width:140px;height:40px;line-height: 40px;background-color: transparent;text-decoration:none;border:1px solid #ffffff;color:#ffffff;text-align: center;font-size: 18px;border-radius: 4px;}
+.header-top .apply:hover{background-color:#ff6161;border:1px solid #ff6161;}
+.login-container{width:1200px;margin:auto;position:relative;top:10%;bottom:0;}
+.login-container .login-box{width:358px;height:388px;border:1px solid #ffffff;position:absolute;right:70px;top:100px;}
+.login-container .login-box .login-word{width:358px;height:80px;background-color: #ffffff;text-align: center;line-height: 80px;}
+.login-container .login-box .login-word p{font-family:SourceHanSansCN;
+  font-size: 24px;color:#333333;}
+.login-container .login-box .form-box{width:280px;margin:65px auto 0 auto;}
+.an-footer{width:100%;height:100px;position:absolute;bottom:0;background-color:#217fcf;}
+.login-container .login-box .form-box .form-div{margin-top: 30px;}
+.login-container .login-box .form-box .form-div .form-label{text-align: right;height: 28px; line-height: 28px; font-size:24px;display:inline-block;color:#ffffff;}
+.login-container .login-box .form-box .form-div  .form-input{text-align:left; height: 25px; line-height: 25px; vertical-align: top;margin-left: 10px;width:200px;outline:none;padding-left: 5px;background-color: transparent;border:0;border-bottom: 1px solid #ffffff;color:#ffffff;font-size: 18px;}
+.login-container .login-box .form-box .btn{margin-top: 40px;width:280px;}
+.login-container .login-box .form-box .btn:hover input[type="submit"]{background-color:#ff6161;border:0;}
+.login-container .login-box .form-box .btn input[type="submit"]{width:270px;margin:0 auto;height:40px;font-family:SourceHanSansCN;font-size: 24px;color:#ffffff;background-color: transparent;line-height: 40px;border:1px solid #ffffff;margin-left: 4px;border-radius: 4px;cursor:pointer;outline:none;}
+.login-container .login-box .forget{width:270px;margin:15px auto 0 auto;15px;position:relative;}
+.login-container .login-box .forget span{color:#ff0000;font-family: SourceHanSansCN;font-size: 12px;position:absolute;left:0;}
+.login-container .login-box .forget a{position:absolute;color:#ffffff;font-family: SourceHanSansCN;font-size: 18px;text-decoration: none;right:0;}
+.login-container .login-box .forget a:hover{text-decoration: underline;}
+.an-footer .footer-msg{width:1200px;margin:0 auto;}
+.an-footer .footer-msg:after{content:"."; height:0; visibility:hidden; display:block; clear:both;}
+.an-footer .footer-msg .left{margin-top:16px;margin-left: 136px;float:left;}
+.an-footer .footer-msg .line{width:1px;height:55px;background-color: #ffffff;float:left;margin-top: 28px;margin-left: 24px;}
+.an-footer .footer-msg .right{float:left;margin-left: 24px;margin-top: 28px;}
+.an-footer .footer-msg .right .tel{font-family: SourceHanSansCN;font-size: 18px;font-weight: 300;color:#ffffff;}
+.an-footer .footer-msg .right .email{font-family: SourceHanSansCN;font-size: 18px;font-weight: 300;color:#ffffff;margin-left: 50px;}
+.an-footer .footer-msg .right .copy-right{margin-top: 1px;}
+.an-footer .footer-msg .right .copy-right .cy{font-family: SourceHanSansCN;font-size: 18px;font-weight: 300;color:#cccccc;}
+.an-footer .footer-msg .right .bnum{font-family: SourceHanSansCN;font-size: 18px;font-weight: 300;color:#cccccc;margin-left: 28px;}

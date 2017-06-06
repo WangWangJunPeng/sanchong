@@ -1,0 +1,77 @@
+body ,.mui-content {
+	background-color: #fff;
+}
+.listMess p {
+	height: .93333rem;
+	line-height: .93333rem;
+	font-size: .3733rem;
+	border-bottom: 1px solid #dadada;
+}
+.listMess p img {
+	vertical-align: middle;
+	margin-right: .2rem;
+	width:.48rem;
+	height:.48rem;
+}
+.rightVal {
+	float: right;
+}
+input[type='text'] {
+	width: 55%;
+	height:.6rem;
+	margin:0;
+	
+}
+.listMess p input {
+	float: right;
+	margin-top: .2rem;
+	border: none;
+	text-align: right;
+	background:transparent;
+}
+.apply-btn {
+	margin-top: 1rem;
+	margin-left: 3rem;
+	width: 2.85333rem;
+	height: .74666rem;
+	border-radius: .1rem;
+	background-color: #ff5a5f;
+	color: #fff;
+	font-size: .3733rem;
+}
+.btn-phone {
+	margin-top: .1rem;
+	margin-left: .2rem;
+}
+.evidence {
+	height: 1.8rem;
+	line-height: .93333rem;
+	font-size: .3733rem;
+	border-bottom: 1px solid #dadada;
+	color: #8f8f94;
+}
+.evidence img, .evidence span ,.evidence label {
+	margin-right: .2rem;
+}
+#takephoto {
+	float: right;
+	margin-right: .2rem;
+}
+#customerName {
+	width:30%;
+}
+.evidence img {
+	width:.48rem;
+	height:.48rem;
+}
+#referPhoto {
+	width:5rem;
+	height:.6rem;
+	font-size:.32rem;
+	opacity:1;
+}
+.mid {
+	width:90%;
+	margin:0 auto;
+}
+

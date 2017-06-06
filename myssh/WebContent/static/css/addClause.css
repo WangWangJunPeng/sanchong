@@ -1,0 +1,31 @@
+/* 
+* @Author: Marte
+* @Date:   2017-01-22 10:33:50
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-02-13 09:35:51
+*/
+@charset "utf-8"; 
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;} 
+table,td,tr,th{font-size:12px;}
+table {width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;}
+input,select,textarea,button{vertical-align:middle;}
+.header{width:1024px;height:50px;margin:0 auto;background-color:#ffffff;color:#666666;}
+.header .self-center{display: inline-block;font-size:22px;font-weight:700;color:#0c95db;line-height: 45px;float:left;}
+.header ul{float:left;line-height: 45px;margin-left:30px;}
+.header ul li{float: left;margin-left: 20px;}
+.header ul li a{display:inline-block;font-size: 12px;color:#333333;}
+.header .welcome{display:block;font-size:12px;float:right;margin-right: 10px;line-height: 45px;color:#666666;}
+.header ul li a:hover{color:#004fc5;border-bottom: 3px solid #37a;}
+.box{width:1024px;margin:0 auto;background-color: #eaeaea;}
+.box .discount-clause{width:100%;margin-left: 8px;padding-top: 18px;}
+.box .discount-clause p{font-size:14px;color:#0c95db;}
+.box .clause-content{width:98%;margin:0 auto;background-color:#ffffff;margin-top: 10px;padding-bottom:20px;}
+.clause-content .form-box{padding-top:20px;}
+.clause-content .form-box .form-div{margin-top:20px;}
+.clause-content .form-box .form-div span{font-size:12px;color:#666666;}
+.clause-content .form-box .form-label{text-align: right;width:120px;height: 28px; line-height: 28px; font-size:14px;display:inline-block;color:#666666;position:relative;}
+.clause-content .form-box .form-label  b{position:absolute;color:#ff0000;top:-5px;right:-8px;}
+.clause-content .form-box .form-input{text-align:left; height: 25px; line-height: 25px; vertical-align: middle;font-size:12px;margin-left: 10px;}
+.clause-content .form-box .form-div textarea{margin-left: 10px;width:620px;height:77px;}
+.clause-content .form-box .btn{margin:60px auto;width: 100px;}
+.form-box .btn input[type='submit']{width:100px;height:40px;font-size: 14px;color:#ffffff;line-height: 40px;background-color:#0c95db ;border:0;border-radius: 6px;}

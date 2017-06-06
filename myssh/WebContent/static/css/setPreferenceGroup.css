@@ -1,0 +1,37 @@
+/* 
+* @Author: Marte
+* @Date:   2017-01-22 13:48:14
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-02-07 13:51:50
+*/
+@charset "utf-8"; 
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;} 
+table,td,tr,th{font-size:12px;}
+table {width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;}
+input,select,textarea,button{vertical-align:middle;}
+.header{width:1024px;height:50px;margin:0 auto;background-color:#ffffff;color:#666666;}
+.header .self-center{display: inline-block;font-size:22px;font-weight:700;color:#0c95db;line-height: 45px;float:left;}
+.header ul{float:left;line-height: 45px;margin-left:30px;}
+.header ul li{float: left;margin-left: 20px;}
+.header ul li a{display:inline-block;font-size: 12px;color:#333333;}
+.header .welcome{display:block;font-size:12px;float:right;margin-right: 10px;line-height: 45px;color:#666666;}
+.header ul li a:hover{color:#004fc5;border-bottom: 3px solid #37a;}
+.box{width:1024px;margin:0 auto;background-color: #eaeaea;}
+.box .discount-clause{width:100%;margin-left: 8px;padding-top: 18px;}
+.box .discount-clause p{font-size:14px;color:#0c95db;}
+.box .clause-content{width:98%;margin:10px auto;background-color:#ffffff;}
+.clause-content .clause-list{width:98%;padding-top:30px;margin-left: 10px;position:relative;}
+.clause-list table{width:100%;border:1px solid #a6a6a6;}
+.clause-list table th{font-size: 14px;color:#333333;border:1px solid #a6a6a6;position:relative; white-space:nowrap;}
+.clause-list table td{font-size: 12px;color:#666666;text-align: center;border:1px solid #a6a6a6; white-space: nowrap;}
+.clause-list table td input[type='text']{width:50%;height:100%;text-align: center;outline: none;}
+.clause-list .drag{position:absolute; right:0px;padding-top: 5px;}
+.clause-list .drag span{font-size: 14px;color:#999999;}
+.box .preference-result{margin-top: 30px;margin-left:10px;padding-bottom: 10px;}
+.preference-result .preference-money{font-size: 16px;color:#199ed8;}
+.preference-result .best-group{font-size: 12px;color:#666666;margin-top: 10px;}
+.box .btn{width:300px;margin:0 auto;padding-bottom: 10px;}
+.btn input[type="button"]{width:100px;height:40px;border-radius:6px;line-height: 40px;margin-left: 40px;font-size: 12px;outline:none;}
+.btn .btn1{background-color: #169bd5;color:#ffffff;border:0;}
+.btn .btn2{background-color: #ffffff;color:#666666;border:1px solid #333333;}
+.myDragClass{box-shadow: 0 12px 14px -12px #111 inset;}

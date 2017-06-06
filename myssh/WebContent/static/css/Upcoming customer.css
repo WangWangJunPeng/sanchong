@@ -1,0 +1,91 @@
+/*ͷ��*/
+.mui-bar {
+	height:.8rem;
+}
+.mui-bar-nav~.mui-content {
+	padding-top:.8rem;
+}
+.mui-title {
+	height:.8rem;
+	line-height:.8rem;
+	font-size:.37333rem;
+}
+.mui-title a {
+	font-size:.4266rem;
+}
+.mui-bar-nav {
+	
+}
+/*����*/
+.messageHead {
+	width: 90%;
+	height: 1.6rem;
+	margin:0 auto;
+}
+.messageHead h3 {
+	font-size: .4rem;
+	color: #fd6767;
+	padding-left: .1rem;
+	border-left:.1rem solid #fd6767;
+	margin-bottom:.4rem;
+}
+.leftNum {
+	float: left;
+	width: 42%;
+}
+.leftNum>p {
+	margin-top: .2rem;
+	width: 3.4rem;
+	height: .61333rem;
+	line-height: .61333rem;
+	border: 1px solid #dadada;
+	font-size: .3733rem;
+	text-align: center;
+	border-radius: .1rem;
+}
+.rightNum {
+	position:relative;
+	float: right;
+	width: 40%;
+	height: 1rem;
+	margin:.5rem 1rem 0 0;
+	line-height: 1rem;
+	border-radius: .1rem;
+}
+.rightNum>span {
+	font-size: .4rem;
+	width:2.4rem;
+	height:.8rem;
+}
+.mui-bar .mui-icon {
+	font-size:.5333rem;
+}
+.rightNum form {
+	width:90%;
+	border:1px solid #dadada;
+	margin:0;
+	
+}
+.rightNum input {
+	width:100%;
+	height:1rem;
+	margin-bottom:0;
+	font-size:.32rem;
+	padding:0;
+	border:none;
+}
+.rightNum img {
+	width:.32rem;
+	height:.4266rem;
+}
+#btn-search {
+	position:absolute;
+	top:0;
+	right:-1.2rem;
+	width:1.2rem;
+	height:1rem;
+	background:#ff5a5f;
+	color:#fff;
+	text-align:center;
+	padding:0;
+}

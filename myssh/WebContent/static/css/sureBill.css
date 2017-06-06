@@ -1,0 +1,67 @@
+/* 
+* @Author: Marte
+* @Date:   2017-02-23 13:43:30
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-02-28 13:50:16
+*/
+@charset "utf-8"; 
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;} 
+table,td,tr,th{font-size:12px;}
+table {width:100%;border-collapse:collapse;border-spacing:0;}
+input,select,textarea,button{vertical-align:middle;}
+.header{width:1024px;height:50px;margin:0 auto;background-color:#ffffff;color:#666666;}
+.header .self-center{display: inline-block;font-size:22px;font-weight:700;color:#0c95db;line-height: 45px;float:left;}
+.header ul{float:left;line-height: 45px;margin-left:30px;}
+.header ul li{float: left;margin-left: 20px;}
+.header ul li a{display:inline-block;font-size: 12px;color:#333333;}
+.header .welcome{display:block;font-size:12px;float:right;margin-right: 10px;line-height: 45px;color:#666666;}
+.header ul li a:hover{color:#004fc5;border-bottom: 3px solid #37a;}
+.box{width:1024px;margin:0 auto;background-color: #eaeaea;}
+.box .sure-bill{width:100%;margin-left: 8px;padding-top: 18px;}
+.box .sure-bill p{font-size:14px;color:#0c95db;}
+.box .bill-content{width:98%;margin:10px auto;background-color:#ffffff;padding-bottom: 10px;}
+.box .bill-content form{width:98%;padding-top:20px;margin-left: 10px;}
+.box .bill-content form input[type="text"]{padding-left: 5px;width:145px;}
+.box .bill-content form input[type="button"]{width:100px;height:26px;line-height: 26px;background-color:#0c95db ;color:#ffffff;font-size: 14px;border:0;border-radius: 4px;margin-left:12px;}
+.box .bill-content .start-end{margin-left: 10px;margin-top: 10px;}
+.box .bill-content .start-end p{font-size: 12px;}
+.box .bill-content .start-end p .start-time{margin-right: 5px;}
+.box .bill-content .start-end p .end-time{margin-left: 5px;}
+.box .bill-content .table-list{width:98%;padding-top:10px;margin-left: 10px;position:relative;}
+.table-list table{width:100%;border:1px solid #a6a6a6;}
+.table-list table th{font-size: 14px;color:#333333;border:1px solid #a6a6a6;position:relative; white-space:nowrap;}
+.table-list table td{font-size: 12px;color:#666666;text-align: center;border:1px solid #a6a6a6;}
+.table-list table td button{font-size: 12px;}
+.table-list table td .pay-supply{width:70px;height:20px;line-height: 18px;background-color: #0c95db;color:#ffffff;border:0;border-radius: 6px;margin-top:3px;}
+.table-list table td .cancel-pay{width:100px;height:20px;line-height: 18px;background-color: #0c95db;color:#ffffff;border:0;border-radius: 6px;margin-top:3px;}
+/*确定佣金结款*/
+.sure-pop{width:400px;height:250px;position:fixed;margin:auto;left:0; right:0; top:0; bottom:0;border:10px solid #e4e4e4;border-radius: 5px;z-index: 1000;background-color: #ffffff;}
+.sure-pop .sure-commission{width:400px;height:40px;background-color:#0c95db;line-height: 40px;}
+.sure-pop .sure-commission h1{font-size: 18px;color:#ffffff;margin-left: 20px;}
+.sure-pop p{font-size: 14px;margin-left: 10px;margin-top:10px;}
+.sure-pop form{margin-top:10px;margin-left: 10px;}
+.sure-pop form textarea{width:380px;height:100px;}
+.sure-pop .btn{margin-left: 100px;margin-top: 20px;}
+.sure-pop .btn input[type='submit']{width:80px;height:26px;line-height: 20px;background-color:#0c95db;border:0;color:#ffffff;font-size: 12px;border-radius: 4px;}
+.sure-pop .btn input[type='button']{width:79px;height:25px;line-height:20px;background-color:#ffffff;border:1px solid #333333;color:#333333;font-size: 12px;border-radius: 4px;margin-left: 20px;}
+/*平台取消结款*/
+.cancel-pop{width:400px;height:250px;position:fixed;margin:auto;left:0; right:0; top:0; bottom:0;border:10px solid #e4e4e4;border-radius: 5px;z-index: 1000;background-color: #ffffff;}
+.cancel-pop .cancel-commission{width:400px;height:40px;background-color:#0c95db;line-height: 40px;}
+.cancel-pop .cancel-commission h1{font-size: 18px;color:#ffffff;margin-left: 20px;}
+.cancel-pop p{font-size: 14px;margin-left: 10px;margin-top:10px;}
+.cancel-pop form{margin-top:10px;margin-left: 10px;}
+.cancel-pop form textarea{width:380px;height:100px;}
+.cancel-pop .btn{margin-left: 100px;margin-top: 20px;}
+.cancel-pop .btn input[type='submit']{width:80px;height:26px;line-height: 20px;background-color:#0c95db;border:0;color:#ffffff;font-size: 12px;border-radius: 4px;}
+.cancel-pop .btn input[type='button']{width:79px;height:25px;line-height: 20px;background-color:#ffffff;border:1px solid #333333;color:#333333;font-size: 12px;border-radius: 4px;margin-left: 20px;}
+/*中介取消结款*/
+/*.angency-pop{width:400px;height:250px;position:fixed;margin:auto;left:0; right:0; top:0; bottom:0;border:10px solid #e4e4e4;border-radius: 5px;z-index: 1000;background-color: #ffffff;}
+.angency-pop .cancel-commission{width:400px;height:40px;background-color:#0c95db;line-height: 40px;}
+.angency-pop .cancel-commission h1{font-size: 18px;color:#ffffff;margin-left: 20px;}
+.angency-pop p{font-size: 14px;margin-left: 10px;margin-top:10px;}
+.angency-pop form{margin-top:10px;margin-left: 10px;}
+.angency-pop form textarea{width:380px;height:100px;}
+.angency-pop .btn{margin-left: 100px;margin-top: 20px;}
+.angency-pop .btn input[type='submit']{width:80px;height:26px;line-height: 20px;background-color:#0c95db;border:0;color:#ffffff;font-size: 12px;border-radius: 4px;}
+.angency-pop .btn input[type='button']{width:79px;height:25px;line-height: 20px;background-color:#ffffff;border:1px solid #333333;color:#333333;font-size: 12px;border-radius: 4px;margin-left: 20px;}*/
+.mask{background-color:#ccc;opacity:0.3;filter:alpha(opacity=50);position:absolute;left:0;top:0;z-index:10;}

@@ -1,0 +1,76 @@
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	color: #676767;
+}
+
+#tabbar {
+	background: #f3f3f3;	
+	width: 100%;
+	height: 100%;
+}
+
+.clientMsg {
+	background-color: #fff;
+    height: 2rem;
+    width: 100%;
+    margin-top: .15rem;
+    padding-left: .6rem;
+}
+
+.leftBox {
+	width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 2rem;
+    float: left;
+    margin-top: .4rem;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.rightBox {
+    padding-left: .5rem;
+    float: left;
+    margin-top: .5rem;
+}
+
+.rightBox p {
+	color: #3C3C3C;
+}
+
+p img {
+	width: .4rem;
+    height: .4rem;
+    margin-right: .1rem;
+}
+
+.cusName {
+    width: 1.12rem;
+    height: 1.12rem;
+    margin: 0 auto;
+    line-height: 1.12rem;
+    background: #ff5a5f;
+    border-radius: 50%;
+    text-align: center;
+    font-size: .28rem;
+    color: #fff;
+}
+/*.chooseLink {
+	padding-top: .2rem;
+	float: right;
+	border-radius: .1rem;
+	background: #FF5A5F;
+	color: #FFFFFF;
+	text-align: center;
+	width: 3rem;
+	height: 1.5rem;
+	font-size: 0.8rem;
+	margin-top: 1.8rem;
+}*/

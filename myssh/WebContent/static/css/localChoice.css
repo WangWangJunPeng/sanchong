@@ -1,0 +1,84 @@
+/*ͷ��*/
+.mui-bar {
+	height:.8rem;
+}
+.mui-bar-nav~.mui-content {
+	padding-top:.8rem;
+}
+.mui-title {
+	height:.8rem;
+	line-height:.8rem;
+	font-size:.4rem;
+}
+.mui-title a {
+	font-size:.4266rem;
+}
+.message>a>img {
+	width:9.2rem;
+	max-height:4.4rem;
+}
+.star img {
+	width:.4rem;
+	height:.4rem;
+}
+
+.bg {
+	width: 100%;
+	background-color: #fff;
+	margin-bottom: .2rem;
+	padding-top: .35rem;
+    padding-bottom: .35rem;
+}
+.messageList {
+	margin-top: .2rem;
+	margin-bottom: 1rem;
+}
+.message {
+	width: 90%;
+	height: 5.85rem;
+	margin: 0 auto;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: .1rem;
+	overflow: hidden;
+}
+.message h4 {
+	margin-top: .2rem;
+	padding-left: .2rem;
+	border-left: 6px solid #ff5a5f;
+	font-size: .32rem;
+	color:#666666;
+	margin-bottom: .2rem;
+}
+.mui-slider-item p {
+	font-size: .32rem;
+}
+.mui-icon-star,.mui-icon-star-filled {
+	font-size: .3733rem;
+}
+.floatLeft {
+	float: left;
+	margin-left: .4rem;
+}
+.floatLeft span {
+	width: .533rem;
+	height: .533rem;
+	border: 1px solid #ff5a5f;
+	color: #FF5A5F;
+	font-size: .32rem;
+	padding: 2px;
+	text-align: center;
+	margin-right: .1rem;
+}
+.floatRight {
+	float: right;
+	color: #999999;
+	margin-right:.2rem;
+}
+.floatRight span {
+	background: #ff5a5f;
+	color: #fff;
+	padding-left: .15rem;
+    padding-right: .1rem;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+}

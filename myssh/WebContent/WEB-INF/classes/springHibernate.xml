@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-3.0.xsd
+           http://www.springframework.org/schema/aop 
+           http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+           http://www.springframework.org/schema/tx 
+           http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+
+	
+	<!-- 数据库配置文件配置 -->
+	<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">  
+		<property name="locations">  
+			<list>  
+                 <value>classpath:dbconfig.properties</value>  
+            </list>  
+        </property>  
+	</bean>
+	
+	
+	<!-- 连接池-->
+	<bean id="myDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="">
+		<property name="driverClassName" value="${driverClassName}"></property>
+		<property name="url" value="${${version}.url}"></property>
+		<property name="username" value="${${version}.username}"></property>
+		<property name="password" value="${${version}.password}"></property>
+	
+        <!--minIdle: 最小空闲连接-->
+        <property name="minIdle" value="5"/>
+        <!--maxIdle: 最大空闲连接-->    
+        <property name="maxIdle" value="5"/>
+		<property name="testOnBorrow">
+			<value>true</value>
+		</property>
+		<property name="validationQuery">
+			<value>select 1</value>
+		</property>
+        <!-- 1000 * 60 * 30  连接在池中保持空闲而不被空闲连接回收器线程-->
+        <property name="minEvictableIdleTimeMillis" value="3"/>
+	</bean>
+	 
+	<!-- 定义hibernate的sessionFaction，并将连接池注入-->
+	<!-- 如果使用hbm.xml配置文件，bean的class对象是"LocalSessionFactoryBean" -->
+	<!-- 注解版配置 -->
+	<bean id="sessionFactory" 
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="myDataSource"></property>
+		<!-- hibernate框架参数 -->
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.format_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+                <prop key="hibernate.autoReconnect">true</prop>
+			</props>
+		</property>
+		
+		<!-- 指定Mapping信息：注解方式配置 -->
+		<property name="annotatedClasses">
+			<list>
+				<value>com.sc.tradmaster.bean.User</value>
+				<value>com.sc.tradmaster.bean.Role</value>
+				<value>com.sc.tradmaster.bean.Project</value>  
+				<value>com.sc.tradmaster.bean.House</value>  
+				<value>com.sc.tradmaster.bean.HouseType</value>
+				<value>com.sc.tradmaster.bean.BankCount</value>
+				<value>com.sc.tradmaster.bean.ProjectPics</value>
+				<value>com.sc.tradmaster.bean.EnterBuy</value>
+				<value>com.sc.tradmaster.bean.ProjectCustomers</value>
+				<value>com.sc.tradmaster.bean.ProjectGuide</value>
+				<value>com.sc.tradmaster.bean.GuideRecords</value>
+				<value>com.sc.tradmaster.bean.ProjectBenefits</value>
+				<value>com.sc.tradmaster.bean.VisitRecords</value>
+				<value>com.sc.tradmaster.bean.Advertisement</value>
+				<!-- <value>com.sc.tradmaster.bean.MideShop</value> -->
+				<value>com.sc.tradmaster.bean.ContractRecords</value>
+				<value>com.sc.tradmaster.bean.ShopCustomers</value>
+				<value>com.sc.tradmaster.bean.SignRecords</value>
+				<value>com.sc.tradmaster.bean.Shops</value>
+				<value>com.sc.tradmaster.bean.SystemChargeDefinition</value>
+				<value>com.sc.tradmaster.bean.Feedback</value>
+				<value>com.sc.tradmaster.bean.CountryProvinceInfo</value>
+				<value>com.sc.tradmaster.bean.Favorites</value>
+				<value>com.sc.tradmaster.bean.PartnerProjects</value>
+				<value>com.sc.tradmaster.bean.PartnerShops</value>
+				<value>com.sc.tradmaster.bean.Confess</value>
+				<value>com.sc.tradmaster.bean.Mydynamic</value>
+				<value>com.sc.tradmaster.bean.MiniMessageWaitSend</value>
+				<value>com.sc.tradmaster.bean.Tag</value>
+				<value>com.sc.tradmaster.bean.TagType</value>
+				<value>com.sc.tradmaster.bean.RealEnterBuyMan</value>
+			<!-- 	<value>com.sc.tradmaster.bean.EnterBuyManAndRealEnterBuyManRelation</value> -->
+				<value>com.sc.tradmaster.bean.LogRecords</value>
+				<value>com.sc.tradmaster.bean.TagsRelation</value>
+				<value>com.sc.tradmaster.bean.AnalysisLabels</value>
+				<value>com.sc.tradmaster.bean.AnalysisCategory</value>
+				<value>com.sc.tradmaster.bean.ManaerChartData</value>
+				<value>com.sc.tradmaster.bean.ManagerOwnAnalyse</value>
+			</list>
+		</property>
+	</bean>
+	
+	<!-- 定义Hibernate的事务管理器HibernateTransactionManager -->
+	<bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<!-- 依赖注入上面的sessionFactory -->
+		<property name="sessionFactory" ref="sessionFactory"/>
+	</bean>
+	
+	<!-- 定义spring的事务拦截器TransactionInterceptor -->
+	<bean id="transactionInterceptor" class="org.springframework.transaction.interceptor.TransactionInterceptor">
+		<!-- 依赖注入事务管理器 -->
+		<property name="transactionManager" ref="transactionManager"/>
+		<!-- 定义需要进行事务拦截的方法及所采用的事务控制类型 --> 
+		<property name="transactionAttributes">
+			<props>
+				<!-- 定义加入事务的方法 --> 
+				<prop key="add*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="drop*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="update*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="*">PROPAGATION_REQUIRED,readOnly</prop>
+			</props>
+		</property>
+	</bean>
+	
+	<!-- 定义通过类名创建自动代理器BeanNameAutoProxyCreatorf进行事务处理 -->
+	<bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+		<!-- 针对指定的bean自动生成代理 -->
+		<property name="beanNames">
+			<list>
+				<value>*Service</value>
+			</list>
+		</property>
+		<!-- 设置这个属性为true时，表示被代理的类是目标类本身而不是目标类的接口 -->
+		<property name="proxyTargetClass">
+			<value>false</value>
+		</property>
+		<!-- 依赖注入上面定义的事务拦截器 -->
+		<property name="interceptorNames">
+			<list>
+				<value>transactionInterceptor</value>
+			</list>
+		</property>
+	</bean>
+</beans>
+
+
+

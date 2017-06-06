@@ -1,0 +1,46 @@
+/* 
+* @Author: Marte
+* @Date:   2017-01-20 15:47:21
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-02-07 10:18:20
+*/
+@charset "utf-8"; 
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;} 
+table,td,tr,th{font-size:12px;}
+table {border-collapse:collapse;}
+input,select,textarea,button{vertical-align:middle;}
+.header{width:1024px;height:50px;margin:0 auto;background-color:#ffffff;color:#666666;}
+.header .self-center{display: inline-block;font-size:22px;font-weight:700;color:#0c95db;line-height: 45px;float:left;}
+.header ul{float:left;line-height: 45px;margin-left:30px;}
+.header ul li{float: left;margin-left: 20px;}
+.header ul li a{display:inline-block;font-size: 12px;color:#333333;}
+.header .welcome{display:block;font-size:12px;float:right;margin-right: 10px;line-height: 45px;color:#666666;}
+.header ul li a:hover{color:#004fc5;border-bottom: 3px solid #37a;}
+.content-list{width:1024px;background-color:#e7e8eb;margin:-18px auto;}
+.content-list .purchase-apply{width:100%;height:46px;margin-top: 18px;margin-left: 8px;}
+.content-list .purchase-apply p{font-size:14px;color:#0c95db;line-height: 46px;}
+.content-list .house-msg{width:100%;margin: 0 auto;}
+.house-msg p{margin-left:8px;font-size:18px;color:#1d1d1d;}
+.house-msg .buy-list{margin-top: 20px;}
+.house-msg table{width:98%;border:1px solid #999;margin:0 auto;margin-top:20px;background-color: #ffffff;}
+.house-msg table th{font-size: 14px;color:#333333;border:1px solid #a6a6a6;}
+.house-msg table td{font-size: 12px;color:#666666;text-align: center;border:1px solid #a6a6a6;}
+.house-msg table td button{width:48px;height:25px;line-height:20px;border-radius:4px;margin-left: 10px;font-size:12px;}
+.house-msg table td .audit{background-color:#0c95db;border:0;color: #ffffff;}
+.house-msg table td .reject{background-color:#ffffff;border:0;color: #333333;border:1px solid #666666;}
+.audit-pop{width:300px;height:200px;position:fixed;margin:auto;left:0; right:0; top:0; bottom:0;border:10px solid #e4e4e4;border-radius: 5px;z-index: 1000;background:#fff;}
+.audit-pop .delete{width:16px;height:16px;position:absolute;right:15px;top:14px;cursor:pointer;color:#fff;}
+.audit-pop .sure-audit{width:300px;height:40px;background-color:#0c95db;line-height: 40px;}
+.audit-pop .sure-audit h1{font-size: 18px;color:#ffffff;margin-left: 20px;}
+.audit-pop p{font-size: 16px;margin-top:40px;margin-left: 60px;}
+.audit-pop button{width:60px;height:30px;background-color:#0c95db;color:#ffffff;line-height: 30px;border-radius: 6px;margin-top:30px;margin-left: 120px;}
+.reject-pop{width:500px;height:300px;position:fixed;margin:auto;left:0; right:0; top:0; bottom:0;border:10px solid #e4e4e4;border-radius: 5px;z-index: 1000;background-color:#fff;}  
+.reject-pop .delete{width:16px;height:16px;position:absolute;right:15px;top:14px;cursor:pointer;color:#fff;}
+.reject-pop .sure-reject{width:500px;height:40px;background-color:#0c95db;line-height: 40px;}
+.reject-pop .sure-reject h1{font-size: 18px;color:#ffffff;margin-left: 20px;}
+.reject-pop p{font-size: 16px;margin-top:10px;margin-left: 10px;}
+.reject-pop .form-box{margin-left: 10px;margin-top:10px;}
+.reject-pop .form-box textarea{width:480px;}
+.reject-pop .form-box .reject-btn{margin-top: 30px;margin-left: 200px;}
+.reject-pop .form-box .reject-btn input[type="submit"]{width:100px;height:30px;background-color:#0c95db;color:#ffffff;line-height: 30px;border-radius: 6px;border:0;}
+.mask{background-color:#ccc;opacity:0.3;filter: alpha(opacity=50);position:absolute;left:0;top:0;z-index:10;}

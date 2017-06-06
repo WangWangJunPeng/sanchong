@@ -1,0 +1,88 @@
+body ,.mui-content {
+	background-color: #efeff4;
+}
+.mui-bar .mui-icon {
+	font-size:.533rem;
+}
+.mui-content {
+	width: 9.2rem;
+	margin: 0 auto;
+}
+.titlebar {
+	width: 100%;
+	height: 1rem;
+	background:#fff;
+	margin-bottom:.2rem;
+}
+.line {
+	width:90%;
+	margin:0 auto;
+}
+.successTitle ,.failedTitle {
+	float: left;
+	width: 50%;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: .3733rem;
+	text-align:center;
+}
+.successTitle {
+	border-right: 1px solid #dadada;
+}
+.mesSuccess {
+	clear: both;
+	width: 100%;
+	margin-bottom: .2rem;
+	background:#fff;
+	padding:.4rem 0;
+}
+.mesFailed {
+	background:#fff;
+	padding:.4rem 0;
+}
+.mesSuccess h3,.mesFailed h3 {
+	font-size: .4rem;
+	color: #fd6767;
+	padding-left: .4rem;
+	border-left: 5px solid #fd6767;
+	margin-bottom: .4rem;
+}
+.mess {
+	width:100%;
+	background:#fff;
+	height:2rem;
+	padding-top:.2rem;
+}
+table {
+	width: 100%;
+	text-align: center;
+	border:1px solid #dadada;
+}
+table tr {
+	height: .8rem;
+	line-height: .8rem;
+}
+table tr td {
+	width:50%;
+}
+.cusName {
+	width: 1.12rem;
+    height: 1.12rem;
+    margin:0 auto;
+    line-height: 1.12rem;
+    background:#ff5a5f;
+    border-radius: 50%;
+    text-align: center;
+    font-size: .28rem;
+    color: #fff;
+}
+.cusPho {
+	width:1.2rem;
+	height:.4rem;
+	color:#ff5a5f;
+	margin:0 auto;
+}
+
+td, th {
+    font-size: .377rem;
+}

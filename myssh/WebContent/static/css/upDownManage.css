@@ -1,0 +1,38 @@
+/* 
+* @Author: Marte
+* @Date:   2017-01-18 14:53:41
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-01-18 15:20:20
+*/
+
+
+.header{width:1024px;height:50px;margin:0 auto;background-color:#ffffff;color:#666666;}
+.header .self-center{display: inline-block;font-size:22px;font-weight:700;color:#0c95db;line-height: 45px;float:left;}
+.header ul{float:left;line-height: 45px;margin-left:30px;}
+.header ul li{float: left;margin-left: 20px;}
+.header ul li a{display:inline-block;font-size: 12px;color:#333333;}
+.header .welcome{display:block;font-size:12px;float:right;margin-right: 10px;line-height: 45px;color:#666666;}
+.header ul li a:hover{color:#199ed8;border-bottom: 3px solid #199ed8;}
+.container{width:1024px;background-color:#e7e8eb; margin:-18px auto;}
+.container:after{content:"";display:block;height:0;overflow: hidden;clear: both;}
+.container .upDown-manage{width:100%;height:46px;margin-top: 18px;margin-left: 8px;}
+.container .upDown-manage p{font-size:14px;color:#0c95db;line-height: 46px;}
+.container .batch-resource{width:1010px;;background-color: #ffffff;padding-bottom:10px;margin:0 auto;}
+.batch-resource .resource-btn{width:100%;padding-top:20px;}
+.batch-resource .resource-btn button{width:30px;background-color:#169bd5;color:#ffffff;font-size:12px;line-height:30px;margin-left: 12px;border-radius: 4px;}
+.batch-resource .resource-btn .btn1{width:68px;}
+.batch-resource .resource-btn .btn2{width:68px;}
+.batch-resource .resource-btn .btn3{width:120px;background-color:#ffffff;color:#333333;border:1px solid #333333;line-height:28px;}
+.batch-resource .resource-btn .btn4{width:150px;background-color:#ffffff;color:#333333;border:1px solid #333333;line-height:28px;}
+.batch-resource .house-search{margin-left: 12px;margin-top: 14px;}
+.batch-resource .house-search .option{font-size: 12px;color:#333333;}
+.batch-resource .house-search .btn-search{width:56px;height:30px;font-size: 12px;line-height:30px;color:#ffffff;background-color:#169bd5;border-radius: 4px;margin-left: 8px;border:0;}
+.batch-resource .house-search .reset{font-size: 12px;color:#169bd5;margin-left: 6px;}
+.batch-resource .house-list{width:100%;margin-top:10px;}
+.house-list table{width:100%;border:1px solid #a6a6a6;}
+.house-list table th{font-size: 14px;color:#333333;border:1px solid #a6a6a6;position:relative;white-space:nowrap;}
+.house-list table th .price{text-align: center;}
+.house-list table th .sort{background-image:url(../images/sort.png);width:16px;height:16px;position:absolute;right:0px;cursor:pointer;}
+.house-list table td{font-size: 12px;color:#666666;text-align: center;border:1px solid #a6a6a6;}
+.house-list table td img{margin-left: 7px;margin-right: 7px;}
+.container .paging{margin-top:10px;margin-bottom: 10px;}

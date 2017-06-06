@@ -1,0 +1,27 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-30 17:20:57
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-31 10:33:08
+*/
+@charset "utf-8"; 
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;} 
+table,td,tr,th{font-size:12px;}
+table {width:100%;border-collapse:collapse;border-spacing:0;}
+input,select,textarea,button{vertical-align:middle;}
+.header{width:1024px;height:50px;margin:0 auto;background-color:#ffffff;color:#666666;}
+.header .self-center{display: inline-block;font-size:22px;font-weight:700;color:#0c95db;line-height: 45px;float:left;}
+.header ul{float:left;line-height: 45px;margin-left:30px;}
+.header ul li{float: left;margin-left: 20px;}
+.header ul li a{display:inline-block;font-size: 12px;color:#333333;}
+.header .welcome{display:block;font-size:12px;float:right;margin-right: 10px;line-height: 45px;color:#666666;}
+.header ul li a:hover{color:#004fc5;border-bottom: 3px solid #37a;}
+.box{width:1024px;margin:0 auto;background-color: #eaeaea;height:800px;}
+.box .alter-psd{width:100%;}
+.box .alter-psd form{width:420px;padding-top:100px;margin:0 auto;}
+.box .alter-psd form .form-div .form-label{text-align: right;width:120px;height: 28px; line-height: 28px; font-size:14px;display:inline-block;color:#666666;position:relative;}
+.box .alter-psd form .form-div .form-label  b{position:absolute;color:#ff0000;top:-5px;right:-8px;}
+.box .alter-psd form .form-div .form-input{text-align:left; height: 25px; line-height: 25px; vertical-align: middle;font-size:12px;margin-left: 10px;width:200px;}
+.box .alter-psd form .form-div{margin-top:20px;width:450px;}
+.box .alter-psd form .btn{width:100px;margin:40px auto;text-align: center;}
+.box .alter-psd form .btn input[type="button"]{border:0;background-color:#169bd5;cursor:pointer;height:30px;color:#ffffff;line-height: 30px;width:60px;border-radius: 4px;}

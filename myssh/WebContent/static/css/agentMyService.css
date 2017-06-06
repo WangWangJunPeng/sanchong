@@ -1,0 +1,73 @@
+body {
+	line-height:.28rem;
+}
+.mui-btn-block {
+	overflow: hidden;
+	width: 20%;
+}
+.mui-btn-block:first-child {
+		margin-left: .4rem;
+}
+.meaaageList {
+	width: 100%;
+	background: #efeff4;
+}
+.message {
+	overflow: auto;
+	width: 100%;
+	padding-top: .2rem;
+	background: #fff;
+	margin-bottom: .2rem;
+}
+.middle {
+	width: 90%;
+	margin: 0 auto;
+}
+.message ul {
+	clear: both;
+	height:1.8rem ;
+	margin-left: -.5rem;
+	list-style: none;
+	
+}
+.message ul li {
+	padding-top: .3rem;
+	float: left;
+	width: 3.2rem;
+	height: 1.7rem;
+	margin-right: .5rem;
+	border: 1px solid #dadada;
+	border-radius: .1rem;
+}
+.message ul li:first-child {
+	margin-right: 16%;
+}
+.message ul li p {
+	font-size: .3733rem;
+	color: #000;
+	line-height: .42rem;
+	text-align: center;	
+}
+.message ul li p:first-child {
+	padding-bottom: .1rem;
+	border-bottom: 1px solid #dadada;
+}
+.message h3 {
+	border-left: 5px solid #ff5a5f;
+	padding-left:.1rem;
+	color: #ff5a5f;
+	font-size: .4rem;
+}
+.btn-customer {
+	position: fixed;
+	bottom: 1.8rem;
+	right: .6rem;
+	width: 2.6rem;
+	height: .8rem;
+	z-index: 100;
+	font-size: .32rem;
+	border-radius: .1rem;
+	color: #fff;
+	background: #ff5a5f;
+	opacity: .8;
+}

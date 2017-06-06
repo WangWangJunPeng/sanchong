@@ -1,0 +1,14 @@
+section {
+	color: #fff;
+    background-color: #02aaf1;
+    margin-top: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+  .new-btn-login {
+        background-color: #02aaf1;
+        color: #FFFFFF;
+        font-weight: bold;
+        border: none;
+ }

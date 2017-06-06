@@ -1,0 +1,30 @@
+/* 
+* @Author: Marte
+* @Date:   2017-01-21 13:10:45
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-02-14 16:24:42
+*/
+@charset "utf-8"; 
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;} 
+table,td,tr,th{font-size:12px;}
+table {width:100%;border-collapse:collapse;border-spacing:0;}
+input,select,textarea,button{vertical-align:middle;}
+.header{width:1024px;height:50px;margin:0 auto;background-color:#ffffff;color:#666666;}
+.header .self-center{display: inline-block;font-size:22px;font-weight:700;color:#0c95db;line-height: 45px;float:left;}
+.header ul{float:left;line-height: 45px;margin-left:30px;}
+.header ul li{float: left;margin-left: 20px;}
+.header ul li a{display:inline-block;font-size: 12px;color:#333333;}
+.header .welcome{display:block;font-size:12px;float:right;margin-right: 10px;line-height: 45px;color:#666666;}
+.header ul li a:hover{color:#004fc5;border-bottom: 3px solid #37a;}
+.box{width:1024px;margin:0 auto;background-color: #eaeaea;}
+.box .discount-clause{width:100%;margin-left: 8px;padding-top: 18px;padding-bottom:4px;}
+.box .discount-clause p{font-size:14px;color:#0c95db;}
+.box .clause-content{width:1010px;margin:0 auto;background-color:#ffffff;margin-top: 10px;padding-bottom: 10px;}
+.clause-content .clause-set{width:100%;padding-top: 10px;margin-left: 8px;position:relative;}
+.clause-set .manage-clause{font-size: 12px;display:inline-block;width:140px;height:36px;background-color:#0c95db ;color:#ffffff;text-align: center;line-height: 36px;border-radius: 6px;}
+.clause-set .set-group{font-size: 12px;display:inline-block;width:180px;height:36px;background-color: #0c95db;color:#ffffff;line-height: 36px;text-align: center;border-radius: 6px; position:absolute;right:16px;}
+.clause-content .clause-list{width:1010px;margin-top:10px;}
+.clause-list table{width:1010px;border:1px solid #a6a6a6;}
+
+.clause-list table th{font-size: 14px;color:#333333;border:1px solid #a6a6a6;position:relative;   }
+.clause-list table td{font-size: 12px;color:#666666;text-align: center;border:1px solid #a6a6a6;  }

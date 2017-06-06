@@ -1,0 +1,70 @@
+.success {
+	width: 100%;
+	height: 1.2rem;
+	margin-top: .3rem;
+	background: #fd6767;
+	color: #fff;
+	font-size: .4rem;
+}
+.failedCss {
+	width: 100%;
+	height: 1.2rem;
+	margin-top: .3rem;
+	background: #CCCCCC;
+	color: #fff;
+	font-size: .4rem;
+}
+.message {
+	background: #FFFFFF;
+	margin-bottom: .2rem;
+}
+.btn-success {
+	width: 100%;
+	height: 1.8rem;
+	border-top:1px solid #dadada;
+}
+.container {
+	width: 100%;
+	height: 1.8rem;
+	padding: .2rem 0;
+	overflow: auto;
+}
+.midde {
+	width: 90%;
+	margin: 0 auto;
+}
+.leftL {
+	float: left;
+	width: 20%;
+	height: 1.2rem;
+	line-height: 1.2rem;
+}
+.rightB {
+	float: left;
+	width: 78%;
+	height: 1.2rem;
+	line-height: 1.2rem;
+}
+p {
+	font-size: .4rem;
+	color: #666666;
+}
+.mui-checkbox.mui-left input[type='checkbox'] {
+	left: .8rem;
+}
+.mui-checkbox input[type='checkbox']  {
+	top: .35rem;
+}
+.mui-radio input[type='radio']:before, .mui-checkbox input[type='checkbox']:before {
+	font-size: .5rem;
+}
+.mui-radio input[type='radio']:checked:before, .mui-checkbox input[type='checkbox']:checked:before {
+	color: #fd6767;
+}
+h2 {
+	font-size: .6rem;
+	color: #333;
+}
+.mui-input-row label {
+	padding:.5rem .5rem;
+}

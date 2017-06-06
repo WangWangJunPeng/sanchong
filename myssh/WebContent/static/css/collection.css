@@ -1,0 +1,99 @@
+
+.btn-finished ,.btn-ok {
+	font-size: .3733rem;
+	background: transparent;
+	border: none;
+	float: right;
+	margin-top: .2rem;
+}
+.mui-bar-nav {
+	height: 1.066rem;
+}
+.mui-title {
+    line-height: 1.066rem;
+    font-size: .4rem;
+    font-weight: normal;
+}
+.mui-bar-nav ~ .mui-content {
+	padding-top: 1rem;
+}
+
+.mui-radio input[type='radio']:before, .mui-checkbox input[type='checkbox']:before {
+	font-size:.6666rem;
+}
+.mui-radio input[type='radio']:checked:before, .mui-checkbox input[type='checkbox']:checked:before {
+	color: #ff5a5f;
+}
+.mui-input-row {
+	overflow: inherit;
+}
+
+.btnGroup {
+	position: fixed;
+	bottom:0;
+	width: 10rem;
+	height: 1.28rem;
+	background-color: #e8e8e8;
+}
+.btnGroup form {
+	height: 1.28rem;
+	line-height: 1.28rem;
+}
+.btnGroup input[type="checkbox"] {
+	width: .4rem;
+	height: .4rem;
+	position:absolute;
+	top:.4rem;
+	vertical-align: middle;
+}
+.btnGroup form label {
+	position:relative;
+	line-height: .66rem;
+	color: #ff5a5f;
+	right:.3rem;
+	font-size:.4rem;
+}
+.btn-look ,.btn-remove {
+	width: 2.4rem;
+	height:1.28rem;
+	margin-left: .4rem;
+	vertical-align: middle;
+	background-color: #ff5a5f;
+	text-align:center;
+	color: #fff;
+	font-size:.32rem;
+	margin-right: 4.8rem;
+}
+
+.referring {
+	width:100%;
+	display: none;
+	z-index: 1000;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+#main {
+	z-index: 1000;
+	margin-bottom:0;
+}
+input[type='text'], .btn-close , #btn-conf {
+	float:left;
+	width:25%;
+	height:1.28rem;
+	border-right:1px solid #dadada;
+	padding:.04rem .08rem;
+	font-size:.28rem;
+	margin-bottom:0;
+	border-radius:0;
+}
+.btn-close {
+	width:20%;
+	background:#fe7e7e;
+	color:#fff;
+}
+#btn-conf {
+	width:30%;
+	background:#ff5a5f;
+	color:#fff;
+}

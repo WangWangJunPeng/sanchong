@@ -1,0 +1,311 @@
+@charset "UTF-8";
+
+.mui-content {
+	background: #fff;
+	width:100%;
+	position: absolute;
+}
+a {
+	color: #686868;
+}
+body {
+	padding-top:1.2rem;
+	line-height:.4rem;
+}
+
+.message .listStyle {
+	height: 3.766rem;
+}
+button[class='btn-see'] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #ff5a5f;
+	color: #fff;
+	width: 1.76rem;
+	height: 0.7466rem;
+	font-size: .3466rem;
+}
+.list2 {
+	margin-top: 0.6rem;
+}
+.list3 {
+	margin-top: 0.6rem;
+}
+.leftbox {
+	margin-bottom: 0.4rem;
+}
+.tablist {
+	overflow:auto;
+	padding-left:.4rem;
+}
+.buttom-box {
+	clear: both;
+	width: 100%;
+}
+.messageList p img {
+	width:.34666rem;
+	height:.3466rem;
+}
+.setImg {
+	width:9.2rem;
+	height:5.2rem;
+}
+#adPhoto {
+	width:100%;
+	height:100%;
+}
+.mui-slider-title {
+	color:#fff;
+}
+.guize {
+	float:left;
+	width:auto;
+	padding:.05rem .1rem;
+	font-size:.32rem;
+	color:#fff;
+	background:#ff5a5f;
+	height: .6rem;
+    line-height: .5rem;
+    margin-right:.1rem;
+}
+.buttom-box ul {
+	overflow:auto;
+	padding-left:0;
+	position:relative;
+}
+.buttom-box ul li {
+	float:left;
+	width:auto;
+	height:.6rem;
+	line-height:.5rem;
+	border:1px solid #dadada;
+	color:#999;
+	font-size:.32rem;
+	padding:.02rem .1rem;
+	margin-right:.04rem;
+}
+.rightIC {
+	position:absolute;
+	right:0;
+	top:.1rem;
+}
+/*杞挱*/
+.tablist li {
+	float:left;
+	width:auto;
+	height:.8rem;
+	line-height:.6rem;
+	font-size:.3733rem;
+	border:1px solid #fd6767;
+	color:#fd6767;
+	margin-right:.2rem;
+	margin-bottom:.2rem;
+	padding:.1rem .2rem; 
+	border-radius:.1rem;
+}
+.page {
+	width:88%;
+	margin:0 auto;
+}
+/*favourable*/
+.favourable {
+	margin-top: 0.2rem;
+	width: 100%;
+}
+.favourable h2,.introduce h2 {
+	color: #fd6767;
+	padding-left: 0.1rem;
+	font-size: .3733rem;
+	border-left: 6px solid #fd6767;
+}
+.benefits {
+	padding-left:.2rem;
+}
+.benefits tr {
+	width: 4.186rem;
+	height: 0.5866rem;
+	color:#666;
+	line-height: 0.5866rem;
+	font-size:.3466rem;
+	margin-left: -0.4rem;
+	margin-bottom: 0.2rem;
+}
+.benefits tr td {
+	display:inline-block;
+	font-size:.3466rem;
+	margin-right:.4rem;
+}
+.putWhite {
+	clear: both;
+	width: 100%;
+	height: 1.066rem;
+}
+.selectNav {
+	width:100%;
+	height: 1rem;
+	margin-top:.2rem;
+	overflow:auto;
+}
+.btn-block1 {
+	float: left;
+	width: 32%;
+	font-size:.32rem;
+	height:.8rem;
+	margin-right:2%;
+}
+.btn-block {
+	float: left;
+	width: 32%;
+	font-size:.32rem;
+	height:.8rem;
+} 
+.btn-block2 {
+	float: left;
+	width: 32%;
+	font-size:.32rem;
+	height:.8rem;
+	margin-right:2%;
+} 
+.mui-bar .mui-btn-block {
+	font-size: .3733rem;
+	color: #000;
+}
+
+.mui-slider-indicator.mui-segmented-control {
+    position: relative;
+    bottom: 0;
+    height: .6rem;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item {
+    font-size: .3733rem;
+    padding-top: .1rem;
+}
+
+.messageList {
+	clear: both;
+	margin-bottom: 1.4rem;
+}
+.messageList section {
+	position: relative;
+	height: 2.2rem;
+	border-bottom: 1px solid #dadada;
+	padding-top:.1rem;
+	margin: .2rem 0;
+}
+.messageList .title {
+	font-size: .4266rem;
+	color: #2c2b2b;
+	padding-left: .2rem;
+	border-left: .133rem solid #ff5a5f;
+}
+p {
+	font-size: .3733rem;
+	color: #999;
+}
+.successLink {
+	position: absolute;
+	top: .2rem;
+	right: 0;
+	display: block;
+	padding-top:.2rem;
+	border-radius:.1rem;
+	background: #ff5a5f;
+	color: #fff;
+	text-align:center;
+	width: 1.76rem;
+	height: 0.7466rem;
+	font-size: .3466rem;
+	z-index: 60;
+}
+.btn-see {
+	position: absolute;
+	top:1rem;
+	right: 0;
+	display: block;      
+	padding-top:.2rem;
+	border-radius:.1rem;
+	background: #ff5a5f;
+	color: #fff;
+	text-align:center;
+	width: 1.76rem;
+	height: 0.7466rem;
+	font-size: .3466rem;
+	z-index: 60;
+}
+.mui-slider {
+	width:100%;
+}
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+	font-size:.3733rem;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item {
+	font-size:.3733rem;
+}
+.imgSize {
+	width:9.2rem;
+	height:5.2rem;
+}
+.introduce table,
+.cssTable table {
+	width:100%;
+}
+.cssTable tr {
+	height:.92rem;
+}
+.cssTable td {
+	border:1px solid #dadada;
+	text-align: center;
+    color: #666666;
+    font-size: .3466rem;
+}
+.cssTable .cos1 {
+	text-align:center;
+	color:#666666;
+	font-size:.3466rem;
+	width:20%;
+}
+.cssTable .cos2 {
+	text-align:center;
+	color:#666666;
+	font-size:.3466rem;
+	width:30%;
+}
+.cssTable .hei1 ,.cssTable .hei1 td, .cssTable .hei1 .cos2 {
+	height:1.2rem;
+	line-height:.6rem;	
+}
+#projectName2 , #propertyAddress {
+	text-align:center;
+	color:#666666;
+	font-size:.3466rem;
+}
+
+.mui-icon {
+    font-size: .3rem;
+}
+
+.pulldown1 {
+	position: absolute;
+    left: 3rem;
+    top: .43rem;                                                                             
+}
+
+.pulldown2 {
+	position: absolute;
+    left: 6rem;
+    top: .43rem;
+}
+
+.pulldown3 {
+	position: absolute;
+    right: .8rem;
+    top: .43rem;
+}
+select {
+	border:1px solid #dadada !important;
+}
+td, th {
+    font-size: .377rem;
+}

@@ -1,0 +1,262 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	background: url(../images/agentBGapp.png) no-repeat 100% 100%;
+	background-size:cover;
+	z-index: -10;
+}
+body {
+	position: relative;
+	background-color: #dcdcdc;
+	line-height:.28rem;
+}
+.calendar {
+	position: absolute;
+	top: 0.4rem;
+	left: 0.4rem;
+	
+}
+
+.messages {
+	position: absolute;
+	top: 3.2rem;
+	left: .4rem;
+	width: 9.2rem;
+}
+.messageNub {
+	width: 2.18rem;
+	height: 2.18rem;
+	line-height: 2.18rem;
+	text-align: center;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 50%;
+}
+.Nub {
+	color: #ff5a5f;
+	font-size: 0.88rem;
+}
+.messageHeader {
+	margin-top: -0.6rem;
+	width: 9.2rem;
+}
+.meaaageList {
+	margin-top: -.2rem;
+	width: 9.2rem;
+	min-height: 10rem;
+	background-color: #fff;
+}
+.meaaageList td,.meaaageList th {
+	width: 2.3rem;
+	height: 1.41rem;
+	line-height: 1.41rem;
+	text-align: center;
+	vertical-align: middle;
+	font-size: .3733rem;
+}
+.meaaageList td {
+	color: #333333;
+}
+.meaaageList td button {
+	width: 1.41rem;
+	height: 0.746rem;
+	margin-top: 0.32rem;
+	background-color: #ff5a5f;
+	color: #fff;
+	border-radius: .1rem;
+	font-size: .3466rem;
+	text-align: center;
+	border: 0;
+}
+.nomessage {
+	position: relative;
+	width: 4.8rem;
+	height: 8rem;
+	margin: 0 auto;
+	padding: 2rem 0 0 1rem;
+}
+.nomessage img {
+	vertical-align: middle;
+}
+.nomessage .dateTime {
+	position: absolute;
+	width:2.6rem;
+	height:2.6rem;
+	line-height:2.4rem;
+	top: 2.3rem;
+	left: 1rem;
+	font-size: .8266rem;
+	color: #fff;
+	text-align:center;
+}
+.nomessage p {
+	margin-left: -1rem;
+	margin-top: .4rem;
+	font-size: .4rem;
+}
+/*客户添加*/
+.add-customer {
+	position: absolute;
+	top: 1.6rem;
+	width: 8.93rem;
+	height: 10rem;
+	padding-top: .4rem;
+	padding-left: .2rem;
+	background-color: #fff;
+	border-radius: .2rem;
+	font-size: .4rem;
+	z-index: 1000;
+}
+p {
+	font-size: .4rem;
+	color: #333333;
+}
+.add-customer lable {
+	height: 1rem;
+	line-height: 1rem;
+}
+.add-customer span {
+	display: inline-block;
+	width: 2rem;
+	height: .6rem;
+	border-bottom: 1px solid #999;
+}
+.guwen {
+	width:100%;
+	height:.8rem;
+	font-size: .4rem;
+	margin-bottom: .2rem;
+}
+.phoneNub {
+	width:100%;
+	height:.8rem;
+	font-size:.4rem;
+}
+.input-width {
+	width: 100%;
+	height: .8rem;
+	font-size: .4rem;
+	margin-bottom:.4rem;
+}
+.inpt {
+	width:3rem;
+	height:.8rem;
+}
+#cusPhone {
+	
+}
+textarea {
+	width: 96%;
+}
+.mess {
+	float: right;
+	margin-right: .4rem;
+	font-size: .2933rem;
+	color: #ff5a5f;
+}
+.btn-save {
+	width: 1.76rem;
+	height: 0.74rem;
+	margin-top: .8rem;
+	margin-left: 3.6rem;
+	background-color: #ff5a5f;
+	color: #fff;
+	font-size:.3733rem;
+	border-radius: .1rem;
+}
+.messageHeader img {
+	width:9.2rem;
+	height:1rem;
+}
+.nomessage>img {
+	width:2.6266rem;
+	height:2.7733rem;
+}
+.nomessage p img {
+	width:.4533rem;
+	height:.4533re;
+}
+.calendar img {
+	width:.4rem;
+	height:.4rem;
+}
+
+.mui-popup-inner {
+    position: relative;
+    padding: .7rem;
+    border-radius: 13px 13px 0 0;
+    background: rgba(255,255,255,.95);
+}
+
+.mui-popup {
+	width: 7.5rem;
+}
+
+.mui-popup-title {
+    font-size: .5rem;
+}
+
+.mui-popup-title+.mui-popup-text {
+    font-family: inherit;
+    font-size: .35rem;
+    margin: .3rem 0 0;
+}
+
+.mui-popup-input input {
+    font-size: .27rem;
+    height: .65rem;
+}
+
+.mui-popup-button {
+    font-size: .4rem; 
+}
+.alertbox {
+	position:fixed;
+	top:35%;
+	left:0;
+	z-index:1000;
+	width:100%;
+}
+.alertbox form {
+	width:80%;
+	margin:0 auto;
+	background:#fff;
+	padding:.4rem 0;
+	border-radius:.2rem;
+}
+.contain {
+	margin:0 auto;
+	width:90%;
+}
+.alertbox form p {
+	text-align:center;
+	margin-bottom:.3rem;
+}
+input[type=text] {
+	padding:.1rem .2rem;
+	margin-bottom:.2rem;
+}
+.phoneinp {
+	width:100%;
+	font-size:.4rem;
+	color:#666;
+}
+.btngroup {
+	width:100%;
+	margin-top:.4rem;
+}
+.contain {
+	position:relative;
+}
+.btngroup button {
+	width:45%;
+	background:#ff5a5f;
+	color:#fff;
+	font-size:.4rem;
+}
+.btn-close {
+	margin-right:8%;
+}
+#phone-error {
+	float:right;
+}

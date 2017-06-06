@@ -1,0 +1,43 @@
+section {
+	width:100%;
+	height: 1.8rem;
+	padding-top:.1rem;
+	margin:0 0 .2rem 0;
+	background:#fff;
+	border-bottom:1px solid #dadada;
+}
+.boxLeft {
+	width: 75%;
+	height: 1.8rem;
+	line-height: .64rem;
+	float: left;
+}
+.boxRight {
+	width: 25%;
+	height: 1.8rem;
+	line-height: .64rem;
+	float: right;
+	text-align: center;
+}
+.boxLeft h3 {
+	border-left: 4px solid #ff5a5f;
+	padding-left: .2rem;
+	margin-bottom: .36rem;
+	font-size: .3733rem;
+	color:#666666;
+}
+.boxLeft span {
+	font-size: .32rem;
+	color: #999999;
+}
+.boxRight p {
+	font-size: .32rem;
+	margin-bottom:0;
+}
+.boxRight span {
+	color: #ff5a5f;
+}
+.mid {
+	width:90%;
+	margin:0 auto;
+}

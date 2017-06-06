@@ -1,0 +1,53 @@
+/* 
+* @Author: Marte
+* @Date:   2017-01-11 10:38:41
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-01-19 17:16:46
+*/
+.header{width:1024px;height:50px;margin:0 auto;background-color:#ffffff;color:#666666;}
+.header .self-center{display: inline-block;font-size:22px;font-weight:700;color:#0c95db;line-height: 45px;float:left;}
+.header ul{float:left;line-height: 45px;margin-left:30px;}
+.header ul li{float: left;margin-left: 20px;}
+.header ul li a{display:inline-block;font-size: 12px;color:#333333;}
+.header .welcome{display:block;font-size:12px;float:right;margin-right: 10px;line-height: 45px;color:#666666;}
+.header ul li a:hover{color:#199ed8;border-bottom: 3px solid #199ed8;}
+.container{width:1024px;background-color:#e7e8eb; margin:-18px auto;}
+.container:after{content:"";display:block;height:0;overflow: hidden;clear: both;}
+.container .home-houseManage{width:100%;height:46px;margin-top: 18px;margin-left: 8px;}
+.container .home-houseManage p{font-size:14px;color:#0c95db;line-height: 46px;}
+.container .house-resource{width:1010px;background-color: #ffffff;margin:0 auto;padding-bottom:10px;}
+.house-resource .resource-btn{width:100%;padding-top:20px;}
+.house-resource .resource-btn button{height:30px;background-color:#169bd5;color:#ffffff;font-size:12px;line-height:30px;margin-left: 12px;border-radius: 4px;}
+.house-resource .resource-btn  a{width:90px;display:inline-block;background-color:#169bd5;color:#ffffff;font-size:12px;line-height:30px;height:30px;border-radius: 4px;margin-left: 12px;text-align: center;vertical-align: top;}
+.house-resource .resource-btn .btn2{width:68px;}
+.house-resource .resource-btn .btn3{width:44px;}
+.house-resource .house-search{margin-left: 12px;margin-top: 14px;}
+.house-resource .house-search .option{font-size: 12px;color:#333333;}
+.house-resource .house-search .btn-search{width:56px;height:30px;font-size: 12px;line-height:30px;color:#ffffff;background-color:#169bd5;border-radius: 4px;margin-left: 8px;border:0;}
+.house-resource .house-search .reset{font-size: 12px;color:#169bd5;margin-left: 6px;}
+.house-resource .house-list{width:100%;margin-top:10px;}
+.house-list table{width:100%;border:1px solid #a6a6a6;}
+.house-list table th{font-size: 14px;color:#333333;border:1px solid #a6a6a6;position:relative;}
+.house-list table th .price{text-align: center;}
+.house-list table th .sort{background-image:url(../images/sort.png);width:16px;height:16px;position:absolute;right:0px;cursor:pointer;}
+.house-list table td{font-size: 12px;color:#666666;text-align: center;border:1px solid #a6a6a6;}
+.house-list table td a img{margin-left: 4px;margin-right: 10px;}
+.container .paging{margin-top:10px;margin-bottom: 10px;}
+.container .home-houseManageAdd{width:100%;height:46px;margin-top: 18px;margin-left: 8px;}
+.container .home-houseManageAdd p{font-size:14px;color:#0c95db;line-height: 46px;}
+.container .add-list{width:100%;}
+.add-list .form-box{width:100%;}
+.add-list .form-box .form-label{text-align: right;width:150px;height: 28px; line-height: 28px; font-size:14px;display:inline-block;color:#666666;position:relative;}
+.add-list .form-box .form-label b{position:absolute;color:#ff0000;top:-5px;right:-8px;}
+.add-list  .form-box .form-div{margin-top:15px;}
+.add-list .form-box .form-input{text-align:left;height: 25px; line-height: 25px;margin-left:10px;vertical-align: middle;font-size:12px;}
+.add-list .form-box .form-div textarea{margin-left: 10px;width:620px;height:100px;}
+.add-list .form-box .form-div select{margin-left: 10px;width:140px;height:22px;}
+.add-list .form-box .form-div span{font-size: 12px;color:#666666;}
+.add-list .form-box .form-div .same{width:140px;}
+.add-list .form-box .form-div .alike{width:140px;}
+.add-list .form-box .form-div .sign{width:180px;}
+.add-list .form-box .btn{margin-top:100px;margin-bottom:100px;text-align: center;}
+.add-list .form-box .btn input[type="submit"]{border:0;cursor:pointer;height:40px;line-height: 40px;margin-left: 20px;}
+.add-list .form-box .btn .btn1{width:140px;border-radius: 6px;background-color:#169bd5;color:#ffffff;}
+.add-list .form-box .btn .btn2{width:140px;border-radius: 6px;background-color:#ffffff;color:#333333;}

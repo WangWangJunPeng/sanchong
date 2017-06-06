@@ -1,0 +1,77 @@
+
+.btn-group input {
+	margin-right: 5px;
+}
+.btn-search {
+	height: 24px;
+	width: 90px;
+	border-radius: 4px;
+	background: #169bd5;
+	color: #fff;
+	margin: 0 5px;
+	vertical-align: middle;
+}
+.btn-text {
+	border: 1px #000 solid;
+	border-radius: 4px;
+	margin-left: 4px;
+}
+.btn-text-1 {
+	width: 100px;
+	height: 18px;
+	font-size: 14px;
+}
+.btn-text-2 {
+	width: 180px;
+	height: 20px;
+}
+
+
+/*表格*/
+.contain {
+	position: relative;
+}
+table {
+	text-align: center;
+	font-size: 14px;
+}
+th {
+	height: 48px;
+	font-size: 14px;
+	color:#333
+}
+td {
+	height: 32px;
+	font-size: 12px;
+}
+.title {
+	text-align: center;
+	font-weight: bold;
+}
+.search-result tr,.search-result td,.search-result th {
+	border: 1px solid #a6a6a6;
+}
+.search-result tr td:first-child {
+	width:10%;
+}
+.search-result caption {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.result-title {
+	margin-top: 5px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.pay-standard {
+	padding: 4px;
+	letter-spacing: 2px;
+}
+#myCarousel {
+	position: absolute;
+	top: 94px;
+	left: 1050px;;
+	width: 600px;
+	height: 288px;
+}

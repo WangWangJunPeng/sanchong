@@ -1,0 +1,41 @@
+.messageList {
+	width: 96%;
+	margin:0 auto;
+	background:#fff;
+}
+.messageList th, .messageList td {
+	font-size: .3466rem;
+	height: .93rem;
+	color:#666;
+}
+
+.messageList td span {
+	text-align:center;
+}
+td {
+	padding:.2rem 0;
+	height:.6rem;
+}
+table tr td {
+	width:auto;
+}
+a {	
+	display:block;
+	width:100%;
+	color: #ff5a5f;
+}
+.mid {
+	width: 96%;
+	margin:0 auto;
+}
+.middle {
+	width:100%;	
+	margin:.15rem 0;
+	padding:.15rem 0;
+	background:#fff;
+}
+.midd {
+	width:65%;
+	padding-left:5%;
+	text-align:left;
+}

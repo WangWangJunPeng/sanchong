@@ -1,0 +1,68 @@
+
+
+input[type=password] {
+    		width: 50%;
+    		font-size: .377rem;
+    		border-top: none;
+    		border-right: none;
+    		border-left: none;
+    		border-bottom: 1px solid rgba(0,0,0,.2);
+    		margin: 0;
+    		height: 1rem;
+    	}
+    	#password {
+    		margin-left: 1rem;
+    	}
+    	#truePassword {
+    		margin-left: .4rem;
+    	}
+    	
+ #success {
+   	border: 0;
+    width: 50%;
+    margin-top: .3rem;
+    margin-left: 2.5rem;
+    background: #ff5a5f;
+   	color:#fff;
+   	font-size: .377rem;
+   	border-radius: .1rem;
+}
+
+.maskDiv {
+				z-index: 90;
+				position:absolute;
+				width: 100%;
+				height: 100%;
+				background-color: #474749;
+				opacity: 0.6;
+			}
+			
+.boxbox {
+				z-index: 100;
+				position: absolute;
+				top: 6.5rem;
+				left: 2rem;
+				width: 6rem;
+				height: 3rem;
+				border-radius: .4rem;
+				display: none;
+				background: #fff;
+				padding-top: .5rem;
+			}
+
+.boxbox p {
+	font-size: .5rem;
+	color: #3c3c3c;
+	padding-left:.7rem;
+	padding-top: .26rem;
+}
+
+.cancleBtn {
+	border: 0;
+	border-radius: .2rem;
+	color: white;
+	background: #ff5a5f;
+	margin-top: .1rem;
+	margin-left: 2.2rem;
+}
+

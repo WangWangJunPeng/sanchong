@@ -1,0 +1,192 @@
+@charset "utf-8";
+html,body {
+	height:100%;
+}
+.mui-bar-nav~.mui-content , .mui-slider {
+	height:100%;
+}
+.mui-segmented-control .mui-control-item {
+	height: 1.2rem;
+	line-height: 1.2rem;
+	background: #fff;
+}
+.mui-segmented-control {
+	font-size: .4rem;
+	color: #333;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+	color: #ff5a5f;
+	background: #fff;
+}
+.mui-segmented-control.mui-segmented-control-inverted~.mui-slider-progress-bar {
+	background-color: #ff5a5f;
+}
+.mui-slider .mui-slider-group {
+	height: 100%;
+	padding-bottom:1.2rem;
+}
+.mui-scroll-wrapper {
+	overflow: auto;
+}
+#item1mobile .mui-scroll-wrapper {
+	min-height: 15rem;
+}
+#item2mobile .mui-scroll-wrapper {
+	min-height: 15rem;
+}
+.page {
+	width: 90%;
+	margin: 0 auto;
+	font-size: .4rem;
+	color: #333;
+}
+.message {
+	width: 100%;
+	/* height: 2rem; */
+	overflow: auto;
+	margin: .3rem 0;
+}
+.leftbox {
+	float: left;
+	width: 30%;
+	line-height: .8rem;
+}
+.middbox {
+	float: left;
+	width: 20%;
+	height: 1.8rem;
+	padding-left: 5.5%;
+	overflow:hidden;
+}
+.rightbox {
+	float: left;
+	width: 48%;
+	height: 1.8rem;
+	background: #fff;
+	border-radius: .3rem;
+	line-height: 1.8rem;
+	overflow:hidden;
+}
+.rightbox p {
+	text-align: center;
+}
+p {
+	font-size: .32rem;
+}
+.mui-slider .mui-slider-group .mui-slider-item img {
+	width: .4266rem;
+	height: 2rem;
+}
+.successed {
+	width: 45%;
+    height: 1.2rem;
+    margin-top: .3rem;
+    background: #fd6767;
+    color: #fff;
+    font-size: .4rem;
+}
+.successeded {
+	width: 45%;
+    height: 1.2rem;
+    margin-top: .3rem;
+	background: #ccc;
+	color: #fff;
+    font-size: .4rem;
+}
+.btn-1 {
+	margin-right: 4%;
+}
+.mainMes .zhong {
+	overflow: hidden;
+	padding-top: .3rem;
+	width: 94%;
+	margin: 0 auto;
+}
+.mainMes .zhong form {
+	height:2rem;
+	margin-bottom:1rem;
+}
+.mainMes textarea {
+	height:2rem;
+	line-height: .8rem;
+	font-size: .32rem;
+	padding:0;
+	margin-bottom:0;
+}
+.mainMes .zhong .left {
+	position: relative;
+	float: left;
+	width: 25%;
+	margin-right: 4%;
+	height: 2rem;
+	border: 1px solid rgba(0,0,0,.2);
+}
+.mainMes .zhong .right {
+	float: left;
+	width: 50%;
+	height:2rem;
+}
+.mainMes .zhong .righted {
+	float: left;
+	width: 20%;
+	height:2rem;
+}
+input[type=submit],input[type=button] {
+	width:80%;
+	height:2rem;
+	background-color:#fd6767;
+	border:1px solid #dadada;
+}
+.mainMes .zhong .left input {
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
+	height: 2rem;
+	opacity: 0;
+	z-index: 100;
+}
+.mainMes .zhong .left img {
+	position: absolute;
+	top: 20%;
+	left: 38%;
+	width: .6133rem;
+	height: .4533rem;
+}
+.mainMes .zhong .left p {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 0;
+}
+.mainMes .zhong .left .p1 {
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+.mainMes .zhong .left .p2 {
+	position: absolute;
+	top: 70%;
+	left: 0;
+}
+.btn-success {
+	position: fixed;
+  	top: 12.9rem; 
+  	left:0;
+}
+.pingzhen {
+	margin-bottom:1.5rem;
+}
+.clause {
+	margin-bottom:2rem;
+}
+
+.bootomDiv {
+	width: 90%;
+    height: 2rem;
+    background-color:transparent;
+}
+
+.btn-detail {
+	position: relative;
+    left: 0;
+    height: 2rem;
+}

@@ -1,0 +1,69 @@
+/*header*/
+.index-header {
+	width: 960px;
+	height: 48px;
+	line-height: 48px;
+	margin: 0 auto;
+}
+.index-header li {
+	float: left;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.index-header li:last-child a {
+	font-size: 12px;
+	color: #999;
+}
+.index-header a:hover {
+	text-decoration: none;
+	color: #EE2C2C;
+}
+.index-logo {
+	font-size: 20px;
+	color: 	#004fc5;
+	font-weight: bold;
+	margin-right: 30px;
+}
+.index-header li:last-child {
+	float: right;
+}
+.active {
+	color: #004fc5;
+}
+.contain {
+	width: 960px;
+	margin: 0 auto;
+	clear: both;
+	margin-top:10px;
+	background: #fff;
+}
+/*nav*/
+.bg{
+	width: 100%;
+	height: 10px;
+	background: #f2f2f2;
+}
+form {
+	display: inline-block;
+}
+#city_4 {
+	display: inline-block;
+}
+.lead-nav {
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+}
+.lead-nav li {
+	float: left;
+}
+.lead-nav li a {
+	font-size: 14px;
+	font-weight: bold;
+	/* color: #169bd5; */
+}
+.lead-nav span {
+	color: #000;
+}

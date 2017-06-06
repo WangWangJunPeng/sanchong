@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/views/app/house/collection.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/app/house/houseList.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/app/house/messageApp.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/app/house/orderStatus.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/house/search_list.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/login/shop_regs.jsp=UTF-8
+encoding//WebContent/static/css/MyInstall.css=UTF-8
+encoding//WebContent/static/css/app.css=UTF-8
+encoding//WebContent/static/css/houseDetail.css=UTF-8
+encoding//WebContent/static/css/message.css=UTF-8
+encoding//WebContent/static/css/messageAPP.css=UTF-8
+encoding//WebContent/static/css/messageProtect.css=UTF-8
+encoding/<project>=UTF-8
+separateDerivedEncodings=true

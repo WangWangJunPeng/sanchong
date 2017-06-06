@@ -1,0 +1,93 @@
+html,body {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	color: #676767;
+}
+
+.mui-content {
+	background: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+#plusClient {
+	font-size: .3733rem;
+    background: transparent;
+    border: none;
+    float: right;
+    margin-top: .6rem;
+}
+
+#tabbar {
+	clear: both;
+	background: #f3f3f3;	
+	width: 100%;
+}
+
+.clientMsg {
+	position:relative;
+	background-color: #fff;
+	display: block;
+	height: 7rem;
+	margin-bottom:.4rem;
+}
+
+.leftBox {
+	width: 4.5rem;
+	height: 4.5rem;
+	border-radius: 2.25rem;
+	position: absolute;
+	top: 1.4rem;
+	left: 1rem;
+	/*margin: 0 auto;*/
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.rightBox {
+    position: relative;
+    width: 20rem;
+    height: 100%;
+    padding-left: 7rem;
+	padding-top: .8rem;
+}
+
+p img {
+	width: 1rem;
+	height: 1rem;
+}
+.chooseLink {
+	position: absolute;
+	top: 3rem;
+	right: 1.2rem;
+	display: block;
+	padding-top: .2rem;
+	border-radius: .1rem;
+	background: #FF5A5F;
+	color: #FFFFFF;
+	text-align: center;
+	width: 3rem;
+	height: 1.5rem;
+	font-size: 0.8rem;
+}
+
+.cusName {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 4.5rem;
+    background: #ff5a5f;
+    border-radius: 50%;
+    text-align: center;
+    font-size: .8rem;
+    color: #fff;
+}
+
+

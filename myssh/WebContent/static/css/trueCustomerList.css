@@ -1,0 +1,88 @@
+@charset "utf-8";
+.titlebar {
+	width: 100%;
+	height: 1.2rem;
+	background: #fff;
+	padding-top: .3rem;
+	margin-bottom: .4rem;
+}
+.titlebar p {
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: .4rem;
+	color: #fd6767;
+}
+.mui-icon {
+	font-size:.6rem ;
+}
+.con {
+	float: left;
+	width: 90%;
+	margin-top: .6rem;
+}
+.navM {
+	color: #666666;
+}
+.con p {
+	font-size:.4rem ;
+}
+.con p span {
+	margin-right: .2rem;
+}
+#firetBtn {
+	margin-right: 8%;
+}
+.failedCss {
+	width: 45%;
+}
+.success {
+	width: 45%;
+}
+.mui-radio input[type='radio']:before, .mui-checkbox input[type='checkbox']:before {
+	font-size: .6rem;
+}
+.middle {
+	margin-bottom:.4rem;
+}
+.alertCss {
+	position: fixed;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.leftBox {
+	width:34%;
+}
+.rightBox {
+	width:64%;
+}
+.successed {
+	width: 100%;
+    height: 1.2rem;
+    margin-top: .3rem;
+    background: #fd6767;
+    color: #fff;
+    font-size: .4rem;
+}
+#mes {
+	width:100%;
+	height:1rem;
+	line-height:1rem;
+	background:#fff;
+}
+#mes p {
+	text-align:center;
+	font-size:.4rem;
+	color:#fd6767;
+}
+.error {
+	float: right;
+    height: .4rem;
+    margin-top: -.3rem;
+}
+#messagep {
+	font-size:.4rem;
+	text-align:center;
+}

@@ -1,0 +1,29 @@
+/* 
+* @Author: Marte
+* @Date:   2017-04-07 10:39:54
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-04-07 15:16:47
+*/
+*{padding:0;margin:0;}
+html, body {margin: 0;padding: 0;overflow:hidden;height:100%;}
+body{background:url("../images/loginbg.png")center no-repeat;}
+.box{width:560px;height:600px;text-align: center;margin:auto;position: absolute;top:0;bottom:0;left:0;right:0;}
+.box .topLogo{margin-top:24px;}
+.box .loginBox{width:500px;height:436px;margin:60px auto 0 auto;border-radius:4px;background-color:rgba(97,98,103,0.3);}
+.box .loginBox .loginBtn{height:80px;width:500px;}
+.box .loginBox .loginBtn:after{content:"."; height:0; visibility:hidden; display:block; clear:both;}
+.box .loginBox .loginBtn .log{float: left;width:250px;line-height: 80px;}
+.box .loginBox .loginBtn .log p{font-size: 26px;color:#fff;}
+.box .loginBox .loginInput{margin-top: 40px;}
+.box .loginBox .loginInput  form .form-div{margin:20px auto 0 auto;width:440px;height:60px;border-radius: 4px;background-color: #fff;position:relative;line-height: 60px;}
+.box .loginBox .loginInput  form .loginError{height:30px;margin:5px auto 0 auto;width:440px;text-align: left;}
+.box .loginBox .loginInput  form .loginError span{font-size: 14px;color:#ff6161;}
+.box .loginBox .loginInput  form .form-div img{position:absolute;left:20px;top:0;bottom:0;margin:auto;}
+.box .loginBox .loginInput  form .form-div input{width:340px;height:40px;border:0;outline: none;font-size: 24px;padding-left: 10px;color:#666;}
+.box .loginBox .loginInput  form .btn{margin-top:10px;}
+.box .loginBox .loginInput  form .btn input{cursor: pointer;width:440px;height:60px;background-color: #e74c3c;border:0;line-height: 60px;border-radius: 4px;font-size:24px;color:#fff;outline:none;}
+.box .loginBox .loginInput .loginDown{width:440px;height:30px;margin:20px auto 0 auto;position:relative;}
+.box .loginBox .loginInput .loginDown .reg{position:absolute;left:0;}
+.box .loginBox .loginInput .loginDown .forg{position:absolute;right:0;}
+.box .loginBox .loginInput .loginDown span a{color:#fff;font-size: 18px;text-decoration: none;margin-left: 5px;}
+.box .loginBox .loginInput .loginDown span img{position:relative;top:2px;}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" 
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+           				http://www.springframework.org/schema/context 
+           				http://www.springframework.org/schema/context/spring-context-3.0.xsd
+			           http://www.springframework.org/schema/aop 
+			           http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+			           http://www.springframework.org/schema/mvc 
+			           http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+			           http://www.springframework.org/schema/tx 
+			           http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+<!-- 全注解 -->
+	<!-- 添加注解扫描 ,配置扫描的目录-->
+	<context:component-scan base-package="com.sc.tradmaster"></context:component-scan>
+	<!-- 添加MVC注解支持 -->
+	<mvc:annotation-driven/>
+	<!-- 添加对静态资源的访问 -->
+	<mvc:default-servlet-handler/>
+	<mvc:resources mapping="/static" location="/static"/>
+	
+	<!-- 防止未登录访问 -->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**" />
+			<bean class="com.sc.tradmaster.interceptor.LogHandlerInterceptor" />
+		</mvc:interceptor>
+	</mvc:interceptors>
+	
+	
+	<mvc:view-controller path="/" view-name="redirect:/"/>
+	<!-- 配置MVC试图解析器 -->
+	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/views/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+    <!-- springMVC 文件上传 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="40960000"/>
+        <property name="maxInMemorySize" value="40960000"/>
+    </bean>  
+    
+    
+    
+    
+    
+    
+    
+                     
+                     
+                     
+                     
+                     
+                     
+
+
+	<!-- 异常处理显示页面 -->
+	<!-- 开启Shiro的注解(如@RequiresRoles,@RequiresPermissions),需借助SpringAOP扫描使用Shiro注解的类,并在必要时进行安全逻辑验证 -->
+	<!-- 配置以下两个bean即可实现此功能 
+	<bean
+		class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"
+		depends-on="lifecycleBeanPostProcessor">
+		<property name="proxyTargetClass" value="true" />
+	</bean>
+	<bean
+		class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+		<property name="securityManager" ref="securityManager" />
+	</bean>	
+	-->	
+	<!-- AOP注解开启配置 -->
+	<aop:aspectj-autoproxy/>
+
+	<!-- 拦截器 -->
+	<mvc:interceptors>
+		<!-- 多个拦截器，顺序执行 -->
+		<mvc:interceptor>
+			<mvc:mapping path="/project.getAgentList" />
+			<mvc:mapping path="/project.sign" />
+			<mvc:mapping path="/project.getSignRecords" />
+			<mvc:mapping path="/project.uploadVisitReocrd" />
+			<mvc:mapping path="/project.getCustomer" />
+			<mvc:mapping path="/project.getVisitRecords" />
+			<bean class="com.sc.tradmaster.utils.MachineCheckLoginTokenInterceptor"></bean>
+		</mvc:interceptor>
+	</mvc:interceptors> 
+</beans>
+

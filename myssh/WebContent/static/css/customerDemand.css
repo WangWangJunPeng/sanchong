@@ -1,0 +1,98 @@
+/* 
+* @Author: Marte
+* @Date:   2017-05-11 16:59:10
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-05-11 17:00:10
+*/
+/* 
+* @Author: Marte
+* @Date:   2017-05-10 15:06:41
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-05-11 16:50:35
+*/
+/* 
+* @Author: Marte
+* @Date:   2017-05-09 10:03:21
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-05-10 13:30:18
+*/
+.frame .sidebar .wrapper .logo {display:inline-block;margin:20px auto 0 auto;}
+.frame .sidebar .wrapper .logo img{margin-left:50px;}
+.frame .sidebar .wrapper ul li .title{color:#1d98f4;font-size: 18px;padding-left: 8px;margin-top:20px;}
+.frame .sidebar .wrapper ul li .noDrop span{font-size: 14px;color:#d9dbe0;padding-left: 8px;}
+.frame .sidebar .wrapper ul li .dropdown span{font-size: 14px;color:#d9dbe0;padding-left: 8px;}
+.frame .sidebar .wrapper ul li .dropdown .right-icon{float:right;}
+.frame .sidebar .wrapper .yy{list-style: none;padding-left: 5px;border-left: 2px solid #3b3f4d;margin-left: 60px;}
+.frame .sidebar .wrapper .yy li{display:block;height:30px;}
+.frame .sidebar .wrapper .yy li a{border-radius: 2px;line-height: 30px;position: relative;display: block;height:30px;text-shadow: inherit;font-size: 13px;font-weight: 500;padding-left: 14px;;}
+.frame .sidebar .wrapper .yy li a:hover,
+.frame .sidebar .wrapper .yy li:hover a{background: #3b3f4d;
+  border-left: 5px solid #5c9df5;
+  color: #FFFFFF;}
+.frame .content .navbar .top-title{height:50px;margin:0;}
+.frame .content .navbar .top-title span{color:#ffffff;font-size: 16px;line-height: 50px;;}
+.frame .content #main-content .profile-head{height:120px;border-bottom:2px solid #e4e5e7;}
+.frame .content #main-content .profile-head  .aa{font-size:14px;color:#70757f;margin-top:15px;margin-left:35px;display:inline-block;}
+.frame .content #main-content .profile-head  a:hover{color:#1c9efe;cursor:pointer;}
+.frame .content #main-content .profile-head p{margin-left:34px;font-size: 14px;}
+.frame .content #main-content .profile-head p:first-child {margin-top: 30px;position:relative;}
+.frame .content #main-content .profile-head p:first-child a{font-family: "Microsoft YaHei";color:#626873;}
+.frame .content #main-content .profile-head p:first-child span{color:#ff6161;font-size: 18px;position:relative;top:5px;}
+.frame .content #main-content .profile-body {
+   
+   padding-bottom: 30px;
+   border-bottom:2px solid #e4e5e7;
+  }
+.frame .content #main-content .profile-body .col-md-12{margin-left: 18px;}
+.frame .content #main-content .profile-body .col-md-12 .col4{height:50px;margin-top: 30px;}
+.frame .content #main-content .profile-body .col-md-12 .col4 span{color:#333;}
+.frame .content #main-content .profile-body .col-md-12 .col8{margin-top: 10px;}
+.frame .content #main-content .profile-body .col-md-12 .col8 ul{padding:0;list-style: none;display:inline-block;}
+.frame .content #main-content .profile-body .col-md-12 .col8 ul .li{list-style: none;display:inline-block;width:100px;height:40px;border:1px solid #d7d5d5;background-color:#eeeff0;line-height: 40px;border-radius: 4px ;text-align: center;margin-left: 20px;margin-top: 10px;color:#5c6475;}
+.frame .content #main-content .profile-body .col-md-12 .col8 ul .li .ul{position:absolute;display:none;z-index:100;}
+.frame .content #main-content .profile-body .col-md-12 .col8 ul .li .ul li{width:100px;height:25px;border:1px solid #d7d5d5;background-color:#ffffff;line-height: 25px;border-radius: 2px ;text-align: center;color:#5c6475;padding:0;}
+
+.frame .content #main-content .profile-body .col-md-12 .right-edit{margin-top: 25px;}
+
+
+
+.frame .content #main-content .ko {
+   
+   padding-bottom: 30px;
+   
+  }
+.frame .content #main-content .ko .col-md-12{margin-left: 18px;}
+.frame .content #main-content .ko .col-md-12 .col4{height:50px;margin-top: 30px;}
+.frame .content #main-content .ko .col-md-12 .col4 span{color:#333;}
+.frame .content #main-content .ko .col-md-12 .col8{margin-top: 10px;}
+.frame .content #main-content .ko .col-md-12 .col8 ul{padding:0;list-style: none;display:inline-block;}
+.frame .content #main-content .ko .col-md-12 .col8 ul .li{
+    display:inline-block;width:100px;height:40px;border:1px solid #d7d5d5;background-color:#eeeff0;line-height: 40px;border-radius: 4px ;text-align: center;margin-left: 20px;margin-top: 10px;color:#5c6475;}
+.frame .content #main-content .ko .col-md-12 .col8 ul .li .ul{position:absolute;display:none;z-index:100;}
+.frame .content #main-content .ko .col-md-12 .col8 ul .li .ul li{width:100px;height:25px;border:1px solid #d7d5d5;background-color:#ffffff;line-height: 25px;border-radius: 2px ;text-align: center;color:#5c6475;padding:0;}
+
+
+
+.frame .content #main-content .ko .col-md-12 .right-edit{margin-top: 25px;}
+.frame .content #main-content .row-bottomOne p{margin-left: 35px;margin-top: 25px;;font-size:14px;color:#70757f;}
+.frame .content #main-content .all-row .right-col4 .right-list{margin-top: 30px;margin-left: 20px;;}
+.frame .content #main-content .all-row .right-col4 .right-list p{font-size:14px;color:#70757f;font-family: "Microsoft YaHei";}
+.frame .content #main-content .all-row .right-col4 .right-row{margin-top:20px;margin-left:10px;}
+.frame .content #main-content .all-row .right-col4 .right-row .addOne{width:150px;height:36px;background-color:#eeeff0 ;color:#333;font-size: 14px;padding-left: 5px;line-height: 36px;border:2px solid #f5f5f5;}
+.frame .content #main-content .all-row .right-col4 .right-row .addButton{width:150px;height:36px;background-color:#1c9efe ;color:#fff;font-size: 14px;line-height: 36px;text-align: center;border:0;border-radius: 4px;}
+
+.frame .content #main-content .all-row .right-col4 .right-row .addButtonTwo{width:150px;height:36px;background-color:#1c9efe ;color:#fff;font-size: 14px;line-height: 36px;text-align: center;border:0;border-radius: 4px;}
+.frame .content #main-content .all-row .right-col4 .right-row .right-col2{margin-top: 10px;;}
+.frame .content #main-content .all-row .right-col4 .right-row .labelEvery{margin-bottom: 15px;margin-top: 5px;}
+.frame .content #main-content .all-row .right-col4 .right-row .labelEvery .labelSecond{margin-bottom: 15px;margin-top: 15px;margin-left: 50px;}
+.frame .content #main-content .all-row .right-col4 .right-row .labelEvery .labelSecond .listSecond{
+    width:100px;height:36px;background-color:#eeeff0 ;color:#333;font-size: 14px;padding-left: 5px;line-height: 36px;border:2px solid #f5f5f5;margin-right: 10px;
+}
+.frame .content #main-content .all-row .right-col4 .right-row .labelEvery .listFirst{width:150px;height:36px;background-color:#eeeff0 ;color:#333;font-size: 14px;padding-left: 5px;line-height: 36px;border:2px solid #f5f5f5;margin-right: 10px;}
+.frame .content #main-content .all-row .right-col4 .right-row .labelEvery .listTwo{width:120px;height:36px;line-height: 28px;border-radius: 4px;border:0;border:2px solid #1c9efe;background:#1c9efe;color:#ffffff;margin-left: 10px;;}
+.frame .content #main-content .all-row .right-col4 .no{margin-left: 20px;;margin-top: 12px;}
+.frame .content #main-content .all-row .right-col4 .yn{margin-top: 12px;;}
+.frame .content #main-content .all-row .right-col4 .row-button{margin-top: 40px;}
+.frame .content #main-content .all-row .right-col4 .row-button input[type="button"]{width:126px;height:36px;line-height: 36px;border-radius: 4px;border:0;margin-left: 40px;;}
+.frame .content #main-content .all-row .right-col4 .row-button .btnOne{border:2px solid #f5f5f5;background:#eeeff0;}
+.frame .content #main-content .all-row .right-col4 .row-button .btnTwo{border:2px solid #1c9efe;background:#1c9efe;color:#ffffff;}

@@ -1,0 +1,52 @@
+.title {
+	width: 100%;
+	height: 1rem;
+}
+
+.confirmBtn {
+    z-index: 50;
+    font-size: .4rem;
+    background: transparent;
+    border: none;
+    float: right;
+    margin-top: -.75rem;
+}
+
+.maskDiv {
+				z-index: 90;
+				position:absolute;
+				width: 100%;
+				height: 100%;
+				background-color: #474749;
+				opacity: 0.6;
+			}
+			
+.boxbox {
+				z-index: 100;
+				position: absolute;
+				top: 6.5rem;
+				left: 2rem;
+				width: 6rem;
+				height: 2.5rem;
+				border-radius: .4rem;
+				display: none;
+				background: #fff;
+				padding-top: .5rem;
+			}
+
+.boxbox p {
+	font-size: .5rem;
+	color: #3c3c3c;
+	padding-left: 1.8rem;
+}
+
+.cancleBtn {
+	border: 0;
+	border-radius: .2rem;
+	color: white;
+	background: #ff5a5f;
+	margin-top: .1rem;
+	margin-left: 2.2rem;
+}
+
+

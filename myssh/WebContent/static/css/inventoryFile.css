@@ -1,0 +1,100 @@
+/*header*/
+.mui-title {
+	font-size: .3733rem;
+}
+ul {
+	padding-left:0;
+	margin: .2rem 0;
+}
+.tablist {
+	overflow:auto;
+}
+/*bannner*/
+.banner {
+	overflow: hidden;
+}
+.mui-slider .mui-slider-group .mui-slider-item {
+	width: 9.2rem;
+}
+.mui-content {
+	width:100%;
+}
+.mui-content .mid {
+	width:87.5%;
+	margin:0 auto;
+}
+.mui-bar-nav~.mui-content {
+	padding-top:.2rem;
+}
+.houseName {
+	padding-left: 0.4rem;
+	height: .8rem;
+	line-height: .8rem;
+	font-size: .4266rem;
+	color: #333333;
+}
+.introduce {
+	/*clear: both;*/
+	overflow: auto;
+	margin-bottom:.4rem;
+}
+.priceMessage {
+	clear: both;
+	width:9rem;
+}
+.payCriterion ol {
+	color: #666666;
+    font-size: .3466rem;
+    padding-left: .1rem;
+    padding-top: .1rem;
+    padding-right: .1rem;
+    padding-bottom: .1rem;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+#slider img {
+	width:9rem;
+	height:5.2rem;
+}
+.mui-slider-title {
+	width:90%;
+}
+.priceMessage h2, .payCriterion h2 {
+	color: #fd6767;
+	padding-left: 0.1rem;
+	font-size: .3733rem;
+	border-left: 6px solid #fd6767;
+}
+.priceMessage table {
+	width: 8.7rem;
+}
+.priceMessage tr {
+	width: 9.2rem;
+	overflow: hidden;
+}
+.priceMessage td {
+	border: 1px solid #dadada;
+	color: #666666;
+	text-align: center;
+	font-size:.3466rem;
+}
+.priceMessage table tr td:first-child ,.allprice {
+	width: 1.733rem;
+	height: 1rem;
+	line-height: 1rem;
+	color:#666;
+}
+.pri {
+	width: 2.8rem;
+}
+.payCriterion li{
+	font-size: 26px;
+	letter-spacing: 2px;
+	line-height: .6rem;
+	padding-right: 0.2rem;
+}
+footer {
+	height: 1.066rem;
+}
+#ImgZoomInBG ~ img {
+	width:100%;
+}

@@ -1,0 +1,31 @@
+/* 
+* @Author: Marte
+* @Date:   2017-02-13 15:48:15
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-02-13 16:08:04
+*/
+@charset "utf-8"; 
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;} 
+table,td,tr,th{font-size:12px;}
+table {width:100%;border-collapse:collapse;}
+input,select,textarea,button{vertical-align:middle;}
+.header{width:1024px;height:50px;margin:0 auto;background-color:#ffffff;color:#666666;}
+.header .self-center{display: inline-block;font-size:22px;font-weight:700;color:#0c95db;line-height: 45px;float:left;}
+.header ul{float:left;line-height: 45px;margin-left:30px;}
+.header ul li{float: left;margin-left: 20px;}
+.header ul li a{display:inline-block;font-size: 12px;color:#333333;}
+.header .welcome{display:block;font-size:12px;float:right;margin-right: 10px;line-height: 45px;color:#666666;}
+.header ul li a:hover{color:#004fc5;border-bottom: 3px solid #37a;}
+.edit-list{width:1024px;background-color:#e7e8eb;margin:-18px auto;height:800px;}
+.edit-list .edit-account{width:100%;height:46px;margin-top: 18px;margin-left: 8px;}
+.edit-list .edit-account p{font-size:14px;color:#0c95db;line-height: 46px;}
+.edit-list .edit-menu{width:98%;margin:0 auto;background-color:#ffffff;margin-top: 10px;padding-bottom: 20px;height:400px;}
+.edit-list .edit-menu .form-box{padding-top:20px;margin-left:260px;}
+.edit-list .edit-menu .form-box .form-div{margin-top:20px;}
+.edit-list .edit-menu .form-box .form-div span{font-size:12px;color:#666666;margin-left: 5px;}
+.edit-list .edit-menu .form-box .form-label{text-align: right;width:120px;height: 28px; line-height: 28px; font-size:14px;display:inline-block;color:#666666;position:relative;}
+.edit-list .edit-menu .form-box .form-label b{position:absolute;color:#ff0000;top:-5px;right:-8px;}
+.edit-list .edit-menu .form-box .form-input{text-align:left; height: 25px; line-height: 25px; vertical-align: middle;font-size:12px;margin-left: 10px;}
+.edit-list .edit-menu .form-box  .length{width:200px;}
+.edit-list .edit-menu .form-box .btn{margin-top: 30px;margin-left:100px;}
+.form-box .btn input[type='submit']{width:220px;height:35px;font-size: 14px;color:#333333;line-height: 35px;background-color:#ffffff;border:0;border-radius: 6px;margin-left:20px;border:1px solid #333333;}

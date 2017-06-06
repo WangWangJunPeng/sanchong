@@ -1,0 +1,128 @@
+body {
+	height:100%;
+}
+.datePicker {
+	position: relative;
+	background:#fff;
+	height:1.4rem;
+	margin-bottom:.4rem;
+	padding-top:.4rem;
+}
+.datePicker input {
+	float:left;
+	width: 3rem;
+	height: .9rem;
+	border: 1px solid #dadada;
+	margin: .1rem 0 0 .2rem;
+	font-size: .3733rem;
+	padding-left: .4rem;
+	border-radius:.1rem;
+}
+.datePicker span:last-child {
+	position: absolute;
+	left: 4.8rem;
+	top: .2rem;
+}
+.datePicker button ,.datePicker span{
+	float: left;
+	height:.9rem;
+}
+.mui-btn-block {
+	overflow: hidden;
+	width: 20%;
+}
+.mui-btn-block:first-child {
+		margin-left: .4rem;
+}
+.meaaageList {
+	width: 100%;
+	background: #efeff4;
+}
+.message {
+	overflow: auto;
+	width: 100%;
+	padding-top: .2rem;
+	background: #fff;
+	margin-bottom: .2rem;
+}
+.middle p {
+	margin-bottom:.0666rem;
+}
+.bgRed {
+	background:#ff5a5f;
+}
+.middle {
+	width: 90%;
+	margin: 0 auto;
+}
+.mui-btn-block {
+	font-size:.32rem;
+	padding:.2rem 0 ;
+}
+.message ul {
+	clear: both;
+	height:1.8rem ;
+	padding-left:0;
+	list-style: none;
+	
+}
+.mui-bar-tab .mui-tab-item .mui-icon {
+	height:.32rem;
+}
+.message ul li {
+	padding-top: .3rem;
+	float: left;
+	width: 23%;
+	height: 1.4933rem;
+	margin-right: 2%;
+	border: 1px solid #dadada;
+	border-radius: .1rem;
+	background:#fff;
+}
+#projectNameTwo {
+	font-size:.32rem;
+	width:20%;
+	padding-left:.2rem;
+	margin:0 0 0 .4rem;
+}
+#btn-search {
+	width:20%;
+	height:.9rem;
+	font-size:.32rem;
+	background:#ff5a5f;
+	color:#fff;
+	margin-left:.4rem;
+	border-radius:2px;
+}
+.message ul li:first-child p:first-child {
+	border-bottom: 1px solid #dadada;
+}
+.message ul li p {
+	font-size: .3733rem;
+	color: #666666;
+	line-height: .42rem;
+	text-align: center;	
+}
+.message ul li p:first-child {
+	padding-bottom: .1rem;
+	border-bottom: 1px solid #dadada;
+}
+.message h3 {
+	border-left: .066rem solid #ff5a5f;
+	padding-left:.1rem;
+	color: #ff5a5f;
+	font-size: .4rem;
+}
+.btn-customer {
+	position: fixed;
+	bottom: 2rem;
+	right: .4rem;
+	width: 2.4rem;
+	height: .8rem;
+	z-index: 100;
+	font-size: .32rem;
+	border-radius: .1rem;
+	color: #fff;
+	background: #ff5a5f;
+	opacity: .8;
+}

@@ -1,0 +1,21 @@
+
+@font-face {font-family: "iconfont";
+  src:url('../fonts/iconfont.ttf') format('truetype');/* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:30px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wo:before { content: "\e60f"; }
+
+.icon-zuanshi:before { content: "\e613"; }
+
+.icon-fangyuan:before { content: "\e610"; }
+
+.icon-yewuguanli:before { content: "\e60b"; }
+
